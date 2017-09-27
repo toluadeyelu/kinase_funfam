@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: kin_notes.aux
+The style file: apalike.bst
+Illegal, another \bibstyle command---line 192 of file kin_notes.aux
+ : \bibstyle
+ :          {apa}
+I'm skipping whatever remains of this command
+Database file #1: kin_references.bib.bib
+Warning--can't use both volume and number fields in tsai2013molecular
+You've used 33 entries,
+            1935 wiz_defined-function locations,
+            688 strings with 10956 characters,
+and the built_in function-call counts, 15336 in all, are:
+= -- 1465
+> -- 828
+< -- 13
++ -- 309
+- -- 292
+* -- 1456
+:= -- 2684
+add.period$ -- 100
+call.type$ -- 33
+change.case$ -- 306
+chr.to.int$ -- 32
+cite$ -- 34
+duplicate$ -- 479
+empty$ -- 958
+format.name$ -- 343
+if$ -- 2909
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 33
+newline$ -- 167
+num.names$ -- 99
+pop$ -- 248
+preamble$ -- 1
+purify$ -- 307
+quote$ -- 0
+skip$ -- 358
+stack$ -- 0
+substring$ -- 1082
+swap$ -- 48
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 196
+warning$ -- 1
+while$ -- 121
+width$ -- 0
+write$ -- 429
+(There was 1 error message)
