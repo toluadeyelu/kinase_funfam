@@ -12,6 +12,13 @@ Anastassiadis, T., Deacon, S.~W., Devarajan, K., Ma, H., and Peterson, J.~R.
   kinase inhibitor selectivity.
 \newblock {\em Nature biotechnology}, 29(11):1039--1045.
 
+\bibitem[Bamford et~al., 2004]{bamford2004cosmic}
+Bamford, S., Dawson, E., Forbes, S., Clements, J., Pettett, R., Dogan, A.,
+  Flanagan, A., Teague, J., Futreal, P.~A., Stratton, M.~R., et~al. (2004).
+\newblock The cosmic (catalogue of somatic mutations in cancer) database and
+  website.
+\newblock {\em British journal of cancer}, 91(2):355.
+
 \bibitem[Barnett et~al., 2005]{barnett2005identification}
 Barnett, S.~F., Defeo-Jones, D., Sheng, F., Hancock, P.~J., Kathleen, M.,
   Jones, R.~E., Kahana, J.~A., LEANDER, K., MALINOWSKI, J., McAVOY, E.~M.,
@@ -24,6 +31,20 @@ Barnett, S.~F., Defeo-Jones, D., Sheng, F., Hancock, P.~J., Kathleen, M.,
 Brazil, D.~P. and Hemmings, B.~A. (2001).
 \newblock Ten years of protein kinase b signalling: a hard akt to follow.
 \newblock {\em Trends in biochemical sciences}, 26(11):657--664.
+
+\bibitem[Capriotti et~al., 2006]{capriotti2006predicting}
+Capriotti, E., Calabrese, R., and Casadio, R. (2006).
+\newblock Predicting the insurgence of human genetic diseases associated to
+  single point protein mutations with support vector machines and evolutionary
+  information.
+\newblock {\em Bioinformatics}, 22(22):2729--2734.
+
+\bibitem[Chiu et~al., 2012]{chiu2012kidfammap}
+Chiu, Y.-Y., Lin, C.-T., Huang, J.-W., Hsu, K.-C., Tseng, J.-H., You, S.-R.,
+  and Yang, J.-M. (2012).
+\newblock Kidfammap: a database of kinase-inhibitor-disease family maps for
+  kinase inhibitor selectivity and binding mechanisms.
+\newblock {\em Nucleic acids research}, 41(D1):D430--D440.
 
 \bibitem[Cowan-Jacob et~al., 2009]{cowan2009structural}
 Cowan-Jacob, S.~W., M{\"o}bitz, H., and Fabbro, D. (2009).
@@ -67,6 +88,14 @@ Gaulton, A., Hersey, A., Nowotka, M., Bento, A.~P., Chambers, J., Mendez, D.,
 \newblock The chembl database in 2017.
 \newblock {\em Nucleic acids research}, 45(D1):D945--D954.
 
+\bibitem[Giansanti et~al., 2014]{giansanti2014evaluating}
+Giansanti, P., Preisinger, C., Huber, K.~V., Gridling, M., Superti-Furga, G.,
+  Bennett, K.~L., and Heck, A.~J. (2014).
+\newblock Evaluating the promiscuous nature of tyrosine kinase inhibitors
+  assessed in a431 epidermoid carcinoma cells by both chemical-and
+  phosphoproteomics.
+\newblock {\em ACS chemical biology}, 9(7):1490--1498.
+
 \bibitem[Hanks and Hunter, 1995]{hanks1995protein}
 Hanks, S.~K. and Hunter, T. (1995).
 \newblock Protein kinases 6. the eukaryotic protein kinase superfamily: kinase
@@ -90,6 +119,12 @@ Hu, Y., Kunimoto, R., and Bajorath, J. (2017).
   exploring promiscuity from a ligand and target perspective.
 \newblock {\em Chemical biology \& drug design}, 89(6):834--845.
 
+\bibitem[Huang et~al., 2009]{huang2009kinase}
+Huang, D., Zhou, T., Lafleur, K., Nevado, C., and Caflisch, A. (2009).
+\newblock Kinase selectivity potential for inhibitors targeting the atp binding
+  site: a network analysis.
+\newblock {\em Bioinformatics}, 26(2):198--204.
+
 \bibitem[Knapp et~al., 2013]{knapp2013public}
 Knapp, S., Arruda, P., Blagg, J., Burley, S., Drewry, D.~H., Edwards, A.,
   Fabbro, D., Gillespie, P., Gray, N.~S., Kuster, B., et~al. (2013).
@@ -109,6 +144,20 @@ Lamba, V. and Ghosh, I. (2012).
   allosteric and bivalent inhibitors.
 \newblock {\em Current pharmaceutical design}, 18(20):2936--2945.
 
+\bibitem[Li and Godzik, 2006]{li2006cd}
+Li, W. and Godzik, A. (2006).
+\newblock Cd-hit: a fast program for clustering and comparing large sets of
+  protein or nucleotide sequences.
+\newblock {\em Bioinformatics}, 22(13):1658--1659.
+
+\bibitem[Li et~al., 2016]{li2016human}
+Li, Y.~H., Wang, P.~P., Li, X.~X., Yu, C.~Y., Yang, H., Zhou, J., Xue, W.~W.,
+  Tan, J., and Zhu, F. (2016).
+\newblock The human kinome targeted by fda approved multi-target drugs and
+  combination products: a comparative study from the drug-target interaction
+  network perspective.
+\newblock {\em PloS one}, 11(11):e0165737.
+
 \bibitem[Lorenzen and Pawson, 2014]{lorenzen2014hdx}
 Lorenzen, K. and Pawson, T. (2014).
 \newblock Hdx-ms takes centre stage at unravelling kinase dynamics.
@@ -118,6 +167,23 @@ Manning, G., Whyte, D.~B., Martinez, R., Hunter, T., and Sudarsanam, S. (2002).
 \newblock The protein kinase complement of the human genome.
 \newblock {\em Science}, 298(5600):1912--1934.
 
+\bibitem[Martin, 2009]{MartinProFit2009}
+Martin, A. (2009).
+\newblock Profit program using mclachlan algorithm.
+\newblock http://www.bioinf.org.uk/software/profit.
+
+\bibitem[Martin et~al., 2008]{martin2008kinomer}
+Martin, D.~M., Miranda-Saavedra, D., and Barton, G.~J. (2008).
+\newblock Kinomer v. 1.0: a database of systematically classified eukaryotic
+  protein kinases.
+\newblock {\em Nucleic acids research}, 37(suppl\_1):D244--D250.
+
+\bibitem[Martin et~al., 2010]{martin2010classification}
+Martin, J., Anamika, K., and Srinivasan, N. (2010).
+\newblock Classification of protein kinases on the basis of both kinase and
+  non-kinase regions.
+\newblock {\em PloS one}, 5(9):e12460.
+
 \bibitem[Menche et~al., 2015]{menche2015uncovering}
 Menche, J., Sharma, A., Kitsak, M., Ghiassian, S.~D., Vidal, M., Loscalzo, J.,
   and Barab{\'a}si, A.-L. (2015).
@@ -125,17 +191,37 @@ Menche, J., Sharma, A., Kitsak, M., Ghiassian, S.~D., Vidal, M., Loscalzo, J.,
   interactome.
 \newblock {\em Science}, 347(6224):1257601.
 
+\bibitem[Miranda-Saavedra and Barton, 2007]{miranda2007classification}
+Miranda-Saavedra, D. and Barton, G.~J. (2007).
+\newblock Classification and functional annotation of eukaryotic protein
+  kinases.
+\newblock {\em Proteins: Structure, Function, and Bioinformatics},
+  68(4):893--914.
+
 \bibitem[Moya-Garc{\'\i}a et~al., 2017]{moya2017structural}
 Moya-Garc{\'\i}a, A., Adeyelu, T., Kruger, F.~A., Dawson, N.~L., Lees, J.~G.,
   Overington, J.~P., Orengo, C., and Ranea, J.~A. (2017).
 \newblock Structural and functional view of polypharmacology.
 \newblock {\em Scientific Reports}, 7.
 
+\bibitem[Orengo and Taylor, 1996]{orengo199636}
+Orengo, C.~A. and Taylor, W.~R. (1996).
+\newblock [36] ssap: sequential structure alignment program for protein
+  structure comparison.
+\newblock {\em Methods in enzymology}, 266:617--635.
+
 \bibitem[Park et~al., 2012]{park2012erlotinib}
 Park, J.~H., Liu, Y., Lemmon, M.~A., and Radhakrishnan, R. (2012).
 \newblock Erlotinib binds both inactive and active conformations of the egfr
   tyrosine kinase domain.
 \newblock {\em Biochemical Journal}, 448(3):417--423.
+
+\bibitem[Perez-Lopez et~al., 2015]{perez2015targets}
+Perez-Lopez, {\'A}.~R., Szalay, K.~Z., T{\"u}rei, D., M{\'o}dos, D., Lenti, K.,
+  Korcsm{\'a}ros, T., and Csermely, P. (2015).
+\newblock Targets of drugs are generally, and targets of drugs having side
+  effects are specifically good spreaders of human interactome perturbations.
+\newblock {\em Scientific reports}, 5:10182.
 
 \bibitem[Rakshambikai et~al., 2015]{rakshambikai2015typical}
 Rakshambikai, R., Manoharan, M., Gnanavel, M., and Srinivasan, N. (2015).
@@ -154,6 +240,20 @@ Roskoski, R. (2016).
 \newblock Classification of small molecule protein kinase inhibitors based upon
   the structures of their drug-enzyme complexes.
 \newblock {\em Pharmacological research}, 103:26--48.
+
+\bibitem[Santos et~al., 2017]{santos2017comprehensive}
+Santos, R., Ursu, O., Gaulton, A., Bento, A.~P., Donadi, R.~S., Bologa, C.~G.,
+  Karlsson, A., Al-Lazikani, B., Hersey, A., Oprea, T.~I., et~al. (2017).
+\newblock A comprehensive map of molecular drug targets.
+\newblock {\em Nature reviews Drug discovery}, 16(1):19--34.
+
+\bibitem[Szklarczyk et~al., 2014]{szklarczyk2014string}
+Szklarczyk, D., Franceschini, A., Wyder, S., Forslund, K., Heller, D.,
+  Huerta-Cepas, J., Simonovic, M., Roth, A., Santos, A., Tsafou, K.~P., et~al.
+  (2014).
+\newblock String v10: protein--protein interaction networks, integrated over
+  the tree of life.
+\newblock {\em Nucleic acids research}, 43(D1):D447--D452.
 
 \bibitem[Taylor and Kornev, 2011]{taylor2011protein}
 Taylor, S.~S. and Kornev, A.~P. (2011).

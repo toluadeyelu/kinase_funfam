@@ -6,7 +6,7 @@
 \usepackage{microtype}
 \usepackage{mathpazo}
 \usepackage{amsmath}
-\setlength{\parskip}{1em}
+\setlength{\parskip}{1.5em}
 \setlength{\parindent}{1.5pt}
 \renewcommand{\baselinestretch}{1.5}
 \usepackage{float}
@@ -40,33 +40,33 @@
 \bibliographystyle{apalike}
 %\setcounter{chapter}{0}
 %\chapter{Protein Kinases and Kinase Inhibitor}
+
 \section*{Introduction}
-\redcomment{AMG: The introductions feels incomplete, kind of needs to have an outline or "direction" of the chapter}
-Protein kinases are enzymes that are involved in several cellular pathways. These enzymes catalyse the transfer of a phosphoryl group from ATP to an acceptor which  can either be protein substrates, lipids or small molecules. Protein kinases catalyse the transfer of $\gamma$-phosphate of ATP to the hydroxyl groups of various substrates. Through this phosphorylation process, they could modify enzymatic activities which leads to alteration in biological processes such as the control of metabolism, transcription processes, cell division and movement, programmed cell death and several other signal transduction events in the cell. \\
-Protein kinases are the second largest enzyme family and the fifth largest family of genes in human following zinc finger proteins, G-protein coupled receptors, immunoglobulins, and the protease enzymes \cite{roskoski2016classification}. About 2\% of the entire genome have been shown to encode protein kinases. \cite{manning2002protein} in 2002, identified all sequenced eukaryotic protein kinases by searching every available human genome sequence source such as  Celera genomic databases, Incytes EST, Genbank cDNAs and expressed sequence tags (ESTs) using hidden Markov Model (HMM) profiling of the sequences to profile the protein kinase domains \cite{manning2002protein}. Overall, they identified 518 human protein kinase genes in which 478 were classifed as eukaryotic protein kinases (ePKs) while 40 were Atypical protein kinases (aPK) which lack sequence similarity to the eukaryotic kinase domain but have been reported to have biochemical kinase activity.
-\subsection*{Protein Kinase Superfamily}
-\redcomment{AMG: Inconsistent use of superfamily, family,group}
-The catalytic domain and the kinase domain of eukaryotic proteins are highly conserved both in sequence and structure. Protein kinase activity requires the binding of a peptide substrate\redinsert{--}which is to be phosphorylated\redinsert{--}and the Mg-ATP to the catalytic domain. Protein kinases can be broadly classified as either tyrosine kinases or serine/threonine kinases based on the specificity of the substrate they phosphorylate. Kinases are divided into groups, families as well as subfamilies. The protein kinases are classified into 9 groups based on the sequence and structural similarities of the catalytic domain. The classification was aided by knowledge of the sequence similarity and domain structure outside the catalytic domains, known biological functions and evolutionary history of the kinases. This classification is an extension of the work by Hanks and Hunter who initially performed a conservation and phylogeny analysis of the catalytic domain of eukaryotic protein to reveal the conserved features of catalytic domains and thus, classified the protein kinase into 5 groups, 44 families and 51 subfamilies \cite{hanks1995protein} while \cite{manning2002protein} further extended this to 9 groups, 134 families and 196 subfamilies. Figure \ref{KinomeDendogram} below shows the grouping of the human protein kinases.\\
+\subsection*{Overview of Protein Kinases}
+Protein kinases are one of the major protein families that are implicated in several diseases and they are of immense interest to pharmaceutical industries (56\% of all human proteins drug targets are protein kinases \cite{santos2017comprehensive}). Protein kinases are enzymes that are involved in several cellular pathways. These enzymes catalyse the transfer of a phosphoryl group from ATP to an acceptor which  can either be protein substrates, lipids or small molecules. Protein kinases catalyse the transfer of $\gamma$-phosphate of ATP to the hydroxyl groups of various substrates. Through this phosphorylation process, they could modify enzymatic activities which leads to alteration in biological processes such as the control of metabolism, transcription processes, cell division and movement, programmed cell death and several other signal transduction events in the cell. \par
+Protein kinases are the second largest enzyme family and the fifth largest family of genes in human following zinc finger proteins, G-protein coupled receptors, immunoglobulins, and the protease enzymes \cite{roskoski2016classification}. About 2\% of the entire genome have been shown to encode protein kinases. Manning and colleagues in 2002, identified all sequenced eukaryotic protein kinases at that time by searching every available human genome sequence source such as  Celera genomic databases, Incytes EST, Genbank cDNAs and expressed sequence tags (ESTs) using hidden Markov Model (HMM) profiling of the sequences to profile the protein kinase domains \cite{manning2002protein}. Overall, they identified 518 human protein kinase genes in which 478 were classifed as eukaryotic protein kinases (ePKs) while 40 were Atypical protein kinases (aPK) which lack sequence similarity to the eukaryotic kinase domain but have been reported to have biochemical kinase activity.\par
+The catalytic domain and the kinase domain of eukaryotic proteins are highly conserved both in sequence and structure. Protein kinase activity requires the binding of a peptide substrate which is to be phosphorylated and the Mg-ATP to the catalytic domain. Protein kinases can be broadly classified as either tyrosine kinases or serine/threonine kinases based on the specificity of the substrate they phosphorylate. Kinases are divided into groups, families as well as subfamilies. The protein kinases are classified into 9 groups based on the sequence and structural similarities of the catalytic domain. The classification was aided by knowledge of the sequence similarity and domain structure outside the catalytic domains, known biological functions and evolutionary history of the kinases. This classification is an extension of the work by Hanks and Hunter who initially performed a conservation and phylogeny analysis of the catalytic domain of eukaryotic protein to reveal the conserved features of catalytic domains and thus, classified the protein kinase into 5 groups, 44 families and 51 subfamilies \cite{hanks1995protein} while \cite{manning2002protein} further extended this to 9 groups, 134 families and 196 subfamilies. Figure \ref{KinomeDendogram} below shows the grouping of the human protein kinases.\par
+Other classification schemes for the protein kinases were also developed over the years. For instance, \cite{miranda2007classification} used a multilevel hidden Markov model library to classify protein kinases into 12 families. They showed that the multilevel HMM library outperformed BLASTP and the single HMM classification used by KinBase. These multilevel HMM involves carrying out subfamily HMM rather than a single HMM for the entire family. The classification by \cite{miranda2007classification} was built upon the sequences derived from KinBase\cite{manning2002protein} and this was stored in the Kinomer database \cite{martin2008kinomer}. Another classification considered the diversity of the accessory domains and their organisations. In their approach, \cite{martin2010classification} used an alignment-free scoring scheme to measure the similarity of the sequences outside the catalytic domain by considering the presence of common short amino acid patterns which helps in detecting outliers within a given classification.
+
 \begin{figure}[H]
-	\includegraphics[width=.8\linewidth]{figures/kinome.jpg}
+	\includegraphics[width=.9\linewidth]{figures/kinome.jpg}
 	\centering
 	\caption{The human kinome. Kinome illustration courtesy of Cell Signalling 			Technology, Inc (www.cellsignal.com) based on \cite{manning2002protein}.}
 	\label{KinomeDendogram}
 \end{figure}
 \subsection*{Classification of Protein Kinases}
-\redcomment{AMG: Just a sentence... I guess you could introduce a bit more the work by Manning before explaining his classification. This introduction could include some evaluation on how his classification holds 15 years later. Also the descriptions of each group below is a bit tedious. I'd suggest you condense it and try to orient the description of each group towards the focus and interest of this chapter i.e. protein kinases as pharmacological targets.}
+The comprehensive work done on the classification of kinases by \cite{manning2002protein} has accomplished several accolades and citations with over 8000 reported by google scholar. 
 Below, the groups identified by \cite{manning2002protein} are described in more detail. \\
 
-\textbf{AGC Kinases}\\ 
-\redcomment{AMG: this typography is very similar to that of the subsection heading above in the compiled document. It doesn't look like these paragraphs belong to the same subsection}
+\subsubsection*{AGC Kinases}
 These group of kinases include PKA, PKG, and PKC. They are involved in diverse cellular roles such as cell growth and proliferation, cell survival, glucose metabolism and protein synthesis. They are also dysregulated in several diseases such as cancer and neurological disorder, inflammation and viral infection \cite {rakshambikai2015typical}. The Akt isoform possesses the pleckstrein homology domain (PH-domain) at the N-terminal and with this domain, it interacts with PIP3 and PIP2  which leads to the activation of pyruvate dehydrogenase kinase isoenzyme (PDK1). PKC also interacts with DAG and calcium by its N-terminal conserved domains (C1 and C2) which leads to conformational changes and activation of the protein \cite{duong2013human}.\\
 \begin{figure}[H]
-	\includegraphics[width=.8\linewidth]{figures/agc_kinase.jpg}
+	\includegraphics[width=.7\linewidth]{figures/agc_kinase.jpg}
 	\centering
 	\caption{The domain structure of AGC kinase family. All members contain Thr/Ser in the activation loop. Figure taken from \cite{brazil2001ten} }
 	\label{agc_kinase}
 \end{figure}
-\textbf{CAMK Kinases}\\
+\subsubsection*{CAMK Kinases}
 These kinases are involved in calcium signalling and are basically autoinhibited. The binding of Ca\textsuperscript{2+}/calmodulin complexes relieves this autoinhibition. Members of this group include MLCK, RAD53, PKD, CAMK2, Trio, CAMKL, DCAMKL, CASK, and DAPK subfamilies and they are all in multidomain architectures. Each member of this family possess additional unique domains in addition to the conserved kinase domain. For instance, the CASK (Ca\textsuperscript{2+} /calmodulin dependent serine kinases) contains a series of L27 repeats, PDZ, two Src homology 3 (SH3) domain as well as a C-terminal guanylate kinase domain \cite{rakshambikai2015typical}. The PKD kinase also possesses a PH domain as found in the Akt family and this is important for the regulation of its enzymatic activity.\\
 \begin{figure}[H]
 	\includegraphics[width=.8\linewidth]{figures/camk_kinase.jpg}
@@ -74,7 +74,7 @@ These kinases are involved in calcium signalling and are basically autoinhibited
 	\caption{Domain organisation and structure of CaMKII. (A) Similar domain organisation in the CaMKII$\alpha$ and CaMKII$\beta$ with the exception of F-actin binding domain inserted in CaMKII$\beta$. (B) Structure of autoinhibited CaMKII subunit PDB ID: 3SOA, (C) Cartoon showing the compact inactive holoenzyme (D) Cartoon showing conformational changes associated with CaMKII activation.}
 	\label{camk_kinase}
 \end{figure}
-\textbf{CK1 group}\\
+\subsubsection*{CK1 group}
 The members of this group are quite ubiquitous in their phosphorylation events as they have a wide range of substrates. They are Ser/Thr kinases and are constitutively expressed. The kinases in this group do not possess additional non-catalytic domains apart from the CK1-gamma subfamily which possesses CK1-gamma domain whose function is not yet known.\\
 \begin{figure}[H]
 	\includegraphics[width=.8\linewidth]{figures/ck.jpg}
@@ -82,10 +82,9 @@ The members of this group are quite ubiquitous in their phosphorylation events a
 	\caption{Domain structure of human CK1$\delta$y. The members share a common conserved kinase domain but differs in their variable N-and-C terminal domains. The regulatory c-terminal domain has multiple inhibitory autophosphorylation sites. The nuclear localization signal(NLS) and kinesin homology domain (KHD) are also located within the kinase domain. Figure obtained from \cite{knippschild2005role}}
 	\label{camk_kinase}
 \end{figure}
-\textbf{CMGC group}\\
+\subsubsection*{CMGC group}
 Members of this group possess single domains like the CK1 group. They include dual specificity tyrosine regulated kinases, dual specificity yak-related kinases(DRYK), cyclin-dependent kinases (CDKs), MAPK, GSK-3, CDK-like kinases. CDKs regulates the progresion through the different phases of the cell cycle in association with their activating partners cyclins. The MAP kinases are amongst the highly studied signal molecules. The MAP kinase cascade include control of proliferation, differentiation, and cell-death across various eukaryotes. The GSK-3 kinases are key metabolic enzyme in glycogen metabolism and play a role in the \textit{Wnt} pathway which is important in embryonic development. \\
-
-\textbf{Tyrosine Kinase group (TK-group)}\\
+\subsubsection*{Tyrosine Kinase group (TK-group)}
 These kinases catalyse the phosphorylation of tyrosine residues and are heavily implicated in cancer. They are classified into receptor and non-receptor (cytosiolic) kinases. The receptor TKs are classified based on the sequence homology and the structure of their extracellular domains into 20 families. One of the most studied extracellular domain is the Ig-like domain which occurs in most of the members of this subgroup. The extracellular domains acts as the ligand binding sites for several growth receptors. The non-receptor kinases are subdivided into 10 families which include Src, Abl, Ack, Csk, Fak, Fes, Frk/Fyn, Tec and Syk \cite{rakshambikai2015typical}. In addition to the kinase catalytic domain, they also possess additional domains that are important for enzymatic regulation and substrate recognition. Src families for instance possess additional SH3, SH2 domains.The Abl has an F-actin binding site and a DNA-binding region, Fak possess a ferm domain and a focal adhension-binding domain which are important for mediating protein-protein interation \cite{duong2013human,rakshambikai2015typical}.\\
 \begin{figure}[H]
 \centering
@@ -104,20 +103,19 @@ These kinases catalyse the phosphorylation of tyrosine residues and are heavily 
 \caption{The multidomain architecture of tyrosine kinases. Figure taken from \cite{foreman2010textbook}. }
 \label{tyrosine_kinase}
 \end{figure}
-
-\textbf{Tyrosine kinase-like group (TKL group)}\\
+\subsubsection*{Tyrosine kinase-like group (TKL group)}
 The members of this group have close sequence similarity to tyrosine kinases, however, they are mostly serine/threonine kinases and lack the TK-specific motifs. They are mostly diverse with members including receptor and nonreceptor kinases. They comprise of 8 major subfamilies which include IRAK, STKR, RIPK, RAF, LRRK, MLK, MLKL, and LISK.\\
 
-\textbf{STE-group}\\
+\subsubsection*{STE-group}
 The members of this group are classified into three major families. They include STE20 (MAPK4), STE11 (MAPK3) and STE7 (MAP2K).  STE stands for "Sterile" and it was originally identified in yeast. The STE kinases sequentially activate each other to then activate the MAPK family.\\
 
-\textbf{RGC-group}\\
+\subsubsection*{RGC-group}
 The receptor guanylate cyclase represents the smallest group of the kinases and they consist entirely of pesudo-kinases that lack certain residues that are critical for phosphate transfer \cite{manning2002protein}. They convert GTP to GMP\\
 
-\textbf{Others}\\
+\subsubsection*{Others}
 These include members that lack sufficient sequence similarity to those given above but display unusual phosphorylation properties using ATP and GTP as phosphate donor. Examples include CK2, IKKs.\\
 
-\textbf{Atypical protein kinases (aPks)}\\
+\subsubsection*{Atypical protein kinases (aPks)}
 The atypical kinases represents group of human kinases that lacks similar sequence identity with the ePKs kinase domain HMM profile but have been shown experimentally to have protein kinase activity. Examples includes PIKK family, A6 family, RIO and Pyruvate dehydrogenase kinase \cite{manning2002protein}.\\ 
 \begin{figure}[H]
 	\includegraphics[width=.8\linewidth]{figures/atypical.jpg}
@@ -133,10 +131,9 @@ The crystal structure of the catalytic domain of TRPM7 provides insights into th
 	\label{atypical2}
 \end{figure}
 %\newpage
+
 \subsection*{Structural Features of Protein Kinase}
-\redcomment{AMG: Introduce the general (multidomain) structure of protein kinases before going through the description of the kinase domain}
-The kinase domain has two dissimilar lobes \redinsert{(the N-lobe and the C-lobe)} joined by a peptide coil called the linker. \redcomment{AMG: The linker is the hinge region below? Now this section is not clearly ordered. I feel the text would gain in clarity if you give a structural overview first (start describing the general structure i.e. lobes and linker/hinge), and after that describe the smaller elements (loops, motifs, binding/functional regions...)} The N-lobe has about 90 amino acids that are orgnised into 5 $\beta$-strands and one helix (C-alpha-helix). This lobe contains the nucleotide binding site that recognises and binds ATP. \redcomment{AMG: I'd provide a brief description of the C-lobe here, and the linker}
-In the N-lobe, there are highly conserved sequence motifs that are embedded within the first three stands. The first is the GXGXXG motif (Gly-rich loop) which is between $\beta$1 and $\beta$2. This loop folds over the nucleotide and positions the  $\gamma$-phosphate of the ATP for catalysis. It is the most flexible part of the N-lobe \cite{taylor2011protein}. Another important loop is the P-loop also called the Walker-A motif (GXXGKT/S). Both the glycine rich motif and the P-loop binds to the nucleotide bound phosphate, however, their interaction with the purine is different. For instance, the P-loop does not contact the purine moeity of the ATP while the gly-rich loop connects both $\beta$ strands that at habours the adenine ring; the Gly-rich loop is also followed by a conserved Val within the $\beta$2 strand that makes hydrophobic contact with the base of the ATP \cite{fabbro2015ten}. The third important motif is the AxK motif which is found in the $\beta$3 strand. The lysine from this motif couples the $\alpha$ and $\beta$-phosphate of the ATP to the C-helix. \\
+The protein kinases have the catalytic domains as well as the non-kinases domains that are responsible for the regulation, scaffolding and substrate specificity. Some of these additional non-kinase domains have been mention in the above section. We review here some structural features of the catalytic domain of the protein kinases. As earlier mentioned, the catalytic domain of the kinase is conserved and it spans about 250 amino acids residues. The kinase domain has two dissimilar lobes (the N-lobe and the C-lobe) joined by a peptide coil called the linker. The N-lobe has about 90 amino acids that are organised into 5 $\beta$-strands and one helix (C-alpha-helix). This lobe contains the nucleotide binding site that recognises and binds ATP. The C-lobe is the larger lobe with and it is alpha-helix dominated. In the N-lobe, there are highly conserved sequence motifs that are embedded within the first three stands. The first is the GXGXXG motif (Gly-rich loop) which is between $\beta$1 and $\beta$2. This loop folds over the nucleotide and positions the  $\gamma$-phosphate of the ATP for catalysis. It is the most flexible part of the N-lobe \cite{taylor2011protein}. Another important loop is the P-loop also called the Walker-A motif (GXXGKT/S). Both the glycine rich motif and the P-loop binds to the nucleotide bound phosphate, however, their interaction with the purine is different. For instance, the P-loop does not contact the purine moeity of the ATP while the gly-rich loop connects both $\beta$ strands that at habours the adenine ring; the Gly-rich loop is also followed by a conserved Val within the $\beta$2 strand that makes hydrophobic contact with the base of the ATP \cite{fabbro2015ten}. The third important motif is the AxK motif which is found in the $\beta$3 strand. The lysine from this motif couples the $\alpha$ and $\beta$-phosphate of the ATP to the C-helix. \\
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{figures/kinasedom.jpg}
 	\centering
@@ -190,10 +187,9 @@ The type-3 inhibitors are a heterogeneous group of kinase inhibitors that bind t
 	\caption{MEK kinase inibitor binding mode (A). The chemical structure of trametinib (B) The binding mode of trametinib with MEK1 (C). Tak-733 co-crystallized with MEK1 (PDB ID: 3PPI) ATP is shown in cyan and Tak-733 in magenta. Figure taken from \cite{wu2015fda}}.
 	\label{trametinib}
 \end{figure}
-The type-4 allosteric inhibitors bind at allosteric sites that is distant from the ATP-binding site. A unique example is the AktI-1/2 targeted inhibitor that inhibits Akt isoforms 1 and 2 kinases. Interestingly, \redcomment{AMG: why is this interesting? Check out for unnecesary adverbs throughout the text} 
- these inhibitors \sout{has no inhibition} \redinsert{have no effect} against PH-domain mutants which suggest that the PH domain is required to exert their activity. This clearly shows that the inhibitor interacts with both the catalytic domain and the PH domain and prevents the activation of the upstream kinase PDK1 \cite{barnett2005identification}. Other types of allosteric protein kinase inhibitors includes the type-5 which are also referred to as bivalent or bi-substrate inhibitor. The bivalent inhibitors tend to have high affinity and more selectivity for targeted therapy. The design of such inhibitors involve the use of an appropriate linker to couple allosteric site inhibitor with kinase active site binding agent to achieve improved selectivity from the non-ATP directed inhibitor \cite {lamba2012new}. Other examples of kinase inhibitors is the hybrid-type having both type I and II features. The field of allosteric kinase inhibition is a rapidly evolving field with the FDA-approval of trametinib as well as several other allosteric inhibitors that are in clinical trials \cite{wu2015allosteric}.
+The type-4 allosteric inhibitors bind at allosteric sites that is distant from the ATP-binding site. A unique example is the AktI-1/2 targeted inhibitor that inhibits Akt isoforms 1 and 2 kinases. These inhibitors have no effect against PH-domain mutants which suggest that the PH domain is required to exert their activity. This clearly shows that the inhibitor interacts with both the catalytic domain and the PH domain and prevents the activation of the upstream kinase PDK1 \cite{barnett2005identification}. Other types of allosteric protein kinase inhibitors includes the type-5 which are also referred to as bivalent or bi-substrate inhibitor. The bivalent inhibitors tend to have high affinity and more selectivity for targeted therapy. The design of such inhibitors involve the use of an appropriate linker to couple allosteric site inhibitor with kinase active site binding agent to achieve improved selectivity from the non-ATP directed inhibitor \cite {lamba2012new}. Other examples of kinase inhibitors is the hybrid-type having both type I and II features. The field of allosteric kinase inhibition is a rapidly evolving field with the FDA-approval of trametinib as well as several other allosteric inhibitors that are in clinical trials \cite{wu2015allosteric}.
 \begin{figure}[H]
-	\includegraphics[width=.8\linewidth]{figures/kinase_inhibitors.jpg}
+	\includegraphics[width=.7\linewidth]{figures/kinase_inhibitors.jpg}
 	\centering
 	\caption{Kinase structure and the various types of inhibitor schematics. (A). Co-crystal structure of PDK1 with ATP (adenine and ribose in green, phosphate in orange) Enlarged area shows hydrogen bond in red, hinge and hinge residues in green backbone, P-loop and P-loop residues in brown-orange, Asp residue of the DFG motif  and the activation loop in grey [PDB ID:4RRV, 1.41A], (B) The four types of reversible binding  mode. Figure taken from \cite{wu2015fda}}.
 	\label{type4inhibitor}
@@ -202,19 +198,48 @@ Allosteric inhibition offer some advantages such as high  selectivity and abilit
 
 \subsection*{Understanding the promiscuity of Protein Kinase Inhibitors}
 
-Protein kinase inhibitors are generally considered promiscous because of their lack of specificity and ability to interact with several kinases and families, due to the presence of the conserved ATP-binding site where the kinase inhibitors interact with. Promiscuity is defined as the ability of a compound to specifically interact with more than one target (the target of interest for which it was designed \cite{hu2017mapping}. Hu et al classified the protein kinse inhibitors into single and multiple kinase inhibitors based on the numbers of targets the PKI compounds in ChEMBL database were active against. Furthermore, they also assessed the promiscuity of a kinase for several structurally diverse compounds and found that many kinases recognises structurally diversed compounds \cite{hu2017mapping}.\\
+Protein kinase inhibitors are generally considered promiscous because of their lack of specificity and ability to interact with several kinases and families, due to the presence of the conserved ATP-binding site where the kinase inhibitors interact with. Promiscuity is defined as the ability of a compound to specifically interact with more than one target (the target of interest for which it was designed \cite{hu2017mapping}. Hu et al classified the protein kinse inhibitors into single and multiple kinase inhibitors based on the numbers of targets the PKI compounds in ChEMBL database were active against. Furthermore, they also assessed the promiscuity of a kinase for several structurally diverse compounds and found that many kinases recognises structurally diversed compounds \cite{hu2017mapping}.\par
+The promiscuity associated with protein kinase inhibitor often leads to various side effects emanating from its usage. This is because the developed kinase inhibitors are not target specific as the combine with  with potential targets eliciting downstream effects which often leads to the associated side effects. For instance in the study evaluating the promiscuous nature of tyrosine kinase inhibitors, \cite{giansanti2014evaluating} using proteomics techniques, studied the promiscuity of 4 tyrosine kinase inhibitors (imatinib, dasatinib, bosutinib and nilotinib) in epidermoid carcinoma cells as a model system for skin cancer. They observe that over 25 tyrosine kinases had affinity for the drugs with imatinib and nilotinib displaying more specificity while the other two showed a larger downstream effects on the phosphotyrosine signalling pathway. The study  of the promiscuity of kinases and kinase inhibitor has been well considered from experimental and computational perpective such that selective criteria can be provided to minimize the off target propensity associated with protein kinase inhibitors.\par
+Using the computational approach, \cite{huang2009kinase} considered the binding site of protein kinases and compared the key residues of the ATP binding sites rather than the overall kinase residues.The residues were encoded in a 9-bit fingerprint and analysed using a network approach was used to partition the kinases into clusters of similar fingerprints. In one of the studies earlier reported by \cite{zhang2008turning}, they studied the cross reactivity and promiscuity associated with kinase inhibitors. They identify some "selective filters" that can be used to distinguish safer drugs and targets from the list of paralog targets the drugs might be associated with. This selective filters are called dehydrons which are also referred to as "wrapping patterns" of the protein targets. They are the intermolecular protection of backbone hydrogen bonds from the hyration of amide and carbonyl groups. The wrapping defects could be informed not only from the structure of the protein kinase but also the sequence. The incorporation of dehydrons into drugs designs have been shown to reduce the numbers of cross-reactivity and improve the specificity of protein kinase inhibitors \cite{zhang2008turning}.\par
+Furthermore, databases like the KIDFamMap \cite{chiu2012kidfammap} provides biological insights into the selectivity of kinase inhibitors and the mechanism of binding. The database explores kinase-inhibitor families as well as kinase-inhibitor disease relationship. The database also provides KIDFamMap "anchors" which are represents interaction between the conserved interaction between kinase subsites and the moieties of the inhibitors. Thus, this creates a platform for accessing conformation, function and selectivity of kinase and kinase inhibitors. 
 
-\redcomment{AMG: You need to comment on the relationship between promiscuity and safety}
-
-In the work earlier reported by \cite{zhang2008turning}, they understood this concept of cross reactivity and promiscuity associated with kinase inhibitors. However, they identify some "selective filters" can may be used to distinguish safer drugs and targets from the list of paralog targets the drugs might be associated with. This selective filters are called dehydrons which are also referred to as "wrapping patterns" of the protein targets. They are the intermolecular protection of backbone hydrogen bonds from the hyration of amide and carbonyl groups. The wrapping defects could be informed not only from the structure of the protein kinase but also the sequence. The incorporation of dehydrons into drugs designs have been shown to reduce the numbers of cross-reactivity and improve the specificity of protein kinase inhibitors \cite{zhang2008turning}.
 \newpage
 \section*{Objectives}
-We have previously demonstrated the importance of using CATH-FunFams as a reasonable annotation level for drug-domain interaction and also used network analysis to associate the propensity of side effects with the network properties of these families through our druggable FunFam approach \cite{moya2017structural}. In this study, we are focusing on protein kinase inhibitors, a set of molecules that inhibit the activities of kinases. Using a set of publicly available protein kinase inhibitors, we intend to associate the targeted kinases with our domain-families (FunFams) and subsequently measure some network characteristics to distinguish FunFams with side effects from others. We will also be exploring some similarity measures and structural coherence to shed more lights on possible repurposing of protein kinase inhibitors to members of a given FunFam.
-\redcomment{AMG: State that we want to investigate the causes of PKI promiscuity beyond the similarity of ATP/drug binding sites}
+We have previously demonstrated the importance of using CATH-FunFams as a reasonable annotation level for drug-domain interaction and also used network analysis to associate the propensity of side effects with the network properties of these families through our druggable FunFam approach \cite{moya2017structural}. In this study, we are focusing on protein kinase inhibitors, a set of molecules that inhibit the activities of kinases. Using a set of publicly available protein kinase inhibitors as well as FDA-approved kinase inhibitor drugs, we studied the Functional Families of kinases and associated these FunFams with protein kinase inhibitors. We subsequently measured some network characteristics to distinguish FunFams with side effects from others. We also explored some similarity measures to shed more lights on possible repurposing of protein kinase inhibitors to members of a given FunFam.
+%\redcomment{AMG: State that we want to investigate the causes of PKI promiscuity beyond the similarity of ATP/drug binding sites}
+The outline of the study is summarized below\par
+\begin{figure}[H]
+	\includegraphics[width=.8\linewidth]{figures/framework.png}
+	\centering
+	\caption{Frame-work of the methodology used in this study}
+	\label{framework}
+\end{figure}
 
 \section*{Results and Discussion}
-\subsection*{GSK-Protein Kinase Inhibitor\redinsert{s set/data}}
-The Published Kinase Inhibitor Set (PKIS) is a collection of 367 compounds that have been made available by GSK to the external community \cite{dranchak2013profile, knapp2013public}. These compounds have been annotated with protein kinase  activity \cite{knapp2013public}. These compounds are of various chemotypes and they are openly available from the ChEMBL database (ChEMBL release 23) \cite{gaulton2016chembl}. The PKIS are active against some known target kinases and can be extended to other new target kinases. We collected only a subset of the PKIS that indicate an inhibitory activity level above 50\% as \cite{dranchak2013profile,  anastassiadis2011comprehensive} had reported this threshold as appropriate for considering the inhibition of kinase catalytic activity. This gave a unique set of 205 protein kinase inhibitors that were distributed across 133 protein kinases. This covers about 60\% of the entire PKIS set and thus a reasonable dataset to consider for a network assessment and characterization of protein kinase inhibition.
+\subsection*{Protein Kinase Inhibitors set}
+The Published Kinase Inhibitor Set (PKIS) is a collection of 367 compounds that have been made available by GSK to the external community \cite{dranchak2013profile, knapp2013public}. These compounds have been annotated with protein kinase  activity \cite{knapp2013public} and are of various chemotypes and are openly available from the ChEMBL database (ChEMBL release 23) \cite{gaulton2016chembl}. The PKIS are active against some known target kinases and can be extended to other new target kinases. We collected a subset of the PKIS that showed an inhibitory activity level above 50\% as \cite{dranchak2013profile,  anastassiadis2011comprehensive} had reported this threshold as appropriate for considering the inhibition of kinase catalytic activity. This gave a unique set of 205 protein kinase inhibitors that were distributed across 133 protein kinases. This covers about 60\% of the entire PKIS set and is thus a reasonable dataset to consider for a network assessment and characterization of protein kinase inhibition.\par
+Furthermore, we compiled kinase-inhibitor datasets of the FDA-approved drugs by querying ChEMBL release 23. We defined this drug target set based on the concentration with which the drug affects the protein. We considered a drug as a small molecule with therapeutic application, which has a direct binding to a single protein (ASSAY$\_$TYPE ="B"), with a maximaum phase of development ="4" which indicate that the drug has been approved. We filtered out weak activity by considering drug-target activity stronger than 1$\mu$M and a pchembl$\_$value$\geq$6). The ATC-code was used to filter the drug-targets such that only the protein kinase inhibitor was obtained. The ATC code classifies drug into different groups at different levels. The code "L01XE" correspond to antineoplastic drugs which are protein kinase inhibitors. The approved drug-target set are 29 approved drugs that interacts with 324 targets. The targets were filtered to exclude those that are not kinases reducing the numbers of targets to 305 kinases. This was used for further analysis.
+
+\subsection*{GSK-Protein kinase inhibitors profile}
+We compiled the various dataset obtained from ChEMBL-23 that correspond to the GSK-Protein kinase inhibitors.
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{figures/activityplot.pdf}
+	\centering
+	\caption{Promiscuity profile of the dataset used in this study. The promiscuity degree correspond to the number of possible interactions per drug in the dataset. The bar plot hence shows a drop of over 10 folds for the promiscuity degree by 10\% increase in the activity threshold (0-10). This significant drop in the promiscuity degree was not observed for the other activity threshold. Hence, we choose those dataset with an activity level $\geq$50\%.}
+	\label{gsk-pki}
+\end{figure}
+
+\subsection*{Comparison of the FDA drug-target set and the GSK-PKI drug-target}
+We had two different drug target sets. Both drug-target sets were selected using different criteria as they were created using different approach. Hence, we compared the network properties of the targets from both sets. The targets from the GSK-PKIS is a subset of the FDA-approved PKI targets, however, the drugs are distinct and not shared in both dataset. 
+Using the \cite{menche2015uncovering} score called "DS-Score" which measures the mean distance of seperation of genes within a cluster, we compared the drug targets aggregation in a given functional network.
+\begin{figure}[H]
+	\includegraphics[width=.9\linewidth]{figures/dsfdagsk.pdf}
+	\centering
+	\caption{Comparing the similarity measure of targets of FDA and GSK-PKIS sets}
+	\label{dsgsk}
+\end{figure}
+
+We observed no statistically significant difference between the DS-Score of the FDA-targets and the GSK-PKIS targets (pvalue = 0.3699). This implies that targets of both set tends to form similar network communities. However, as reported by several studies, we also found that the tyrosine kinase family are the most targeted family by the the approved drug with a coverage of over 70\% depicted by our drug-target dataset. Since the GSK-PKIS had more compounds compared to the FDA-drugs, we therefore chose this as our "test set" to analyse the promiscuity of protein kinase inhibitors and possible repurposing of the drugs by associating the targets to the domain families (Pfam-FunFams).
 
 \subsection*{Target Promiscuity of Protein Kinase Inhibitors}
 The PKIS dataset obtained from ChEMBL database was analysed to study the association of kinases (targets) with inhibitors in order to understand the inherent promiscuity associated with the protein kinase inhibitors set. 
@@ -236,23 +261,42 @@ The PKIS dataset obtained from ChEMBL database was analysed to study the associa
 \caption{Distribution of kinase-drug interaction and drug-kinase interaction for the GSK-PKIS sets}
 \label{targ_dis}
 \end{figure}
-Figure \ref{targ_dis} shows the promiscuity of the kinases for inhibitors as well as inhibitors for kinases. Protein kinase inhibitors interact with more than one kinase  while some kinases could also interact with more than one protein kinase inhibitor, which indicates the non-specificity of these kinase sets.
+Figure \ref{targ_dis} shows the inherent promiscuity of the kinases for inhibitors as well as inhibitors for kinases. Protein kinase inhibitors interact with more than one kinase  while some kinases could also interact with more than one protein kinase inhibitor, which indicates the non-specificity of these kinase sets. This is not surprising as majority of the protein kinase inhibitors are the clasical type 1 inhibitors that binds at the ATP site directly and compete with ATP which is quite universal and
 
 \subsection*{Mapping kinases to Pfam-FunFam}
-Protein kinases have been divided divided into 9 groups by \cite{manning2002protein} as explained in the introductory section. We associated all human kinases with our functional families (groups of evolutionarily related, structurally and functionally coherent protein families). We scanned all human kinase sequences from Pfam against Pfam-FunFams library using HMMer3. Pfam-FunFam data from the Gene3D database was used as Pfam provides sequences that cover the entire kinase catalytic region, whilst CATH divides the kinases into the N and C lobe domains.\\
-1277 human protein kinases sequences obtained from Pfam was clustered at 90\% sequence identity to obtain a unique non-redundant human kinase set using CD-HIT clustering algorithm. The 741 unique kinases obtained were distributed amongst 130 Pfam-FunFams. The identified Pfam-FunFam represents 46\% of the entire Pfam-clan as the human protein kinases were associated with 16 of the 35 Pfam clans. We mapped the Pfam-FunFam to the human kinome tree and found that the our domain-family classification are well annotated to the various groups with no overlap between the already identified grouping by \cite{manning2002protein} as shown in figure \ref{kinasetree} below. \redcomment{AMG: the difference between 1227 and 741 proteins merits a brief comment on isoforms and how we deal with them}
+Protein kinases have been divided divided into 9 groups by \cite{manning2002protein} as explained in the introductory section. We associated all human kinases with our functional families (groups of evolutionarily related, structurally and functionally coherent protein families). We scanned all human kinase sequences from Pfam against the in-house Pfam-FunFams library using HMMer3. Pfam-FunFam data from the Gene3D database was used as Pfam provides sequences that cover the entire kinase catalytic region, whilst CATH divides the kinases into the N and C lobe domains.\par
+The identified 1277 human protein kinases sequences obtained from Pfam were clustered at 90\% sequence identity to remove protein isoforms and obtain a unique non-redundant human kinase set using CD-HIT clustering algorithm \cite{li2006cd}. The 741 non-redundant kinases obtained were distributed amongst 130 Pfam-FunFams which map to 16 of the 35 Pfam clans. We mapped the Pfam-FunFam to the human kinome tree and found that our domain-family classification correspond well to the various groups with no overlaps between the groups identified by \cite{manning2002protein} as shown in figure \ref{kinasetree} below. %\redcomment{AMG: the difference between 1227 and 741 proteins merits a brief comment on isoforms and how we deal with them}
 \begin{figure}[H]
-	\includegraphics[width=.9\linewidth]{figures/kinometree.jpg}
+	\includegraphics[width=.7\linewidth]{figures/kinometree.jpg}
 	\centering
 	\caption{Pfam-FunFam distribution across the human kinome.The kinome tree was adapted from \cite{manning2002protein}. The mapping of Pfam-FunFam to the group "Others" is not shown in this figure}
 	\label{kinasetree}
 \end{figure}
-We then mapped the drug-targets of the PKIS obtained from ChEMBL to the Pfam-FunFams at 50\% inhibition level with an affinity of 0.1$\mu$M and found that they are associated with 37 of the 130 Pfam-FunFams which represents about 30\% of the human kinase Pfam-FunFam obtained. We speculated that this 30\% represents the kinases most targeted by the pharmaceutical industry based on their relevance to human disease and those most studied as the current research in kinase therapeutics indicate that only 10-15\% is being targeted, we also observed this ratio from the entire GSK-PKIS set being used in this study.
+We then mapped the drug-targets of the PKIS obtained from ChEMBL to the Pfam-FunFams at 50\% inhibition level with an affinity of 0.1$\mu$M and found that they are associated with 37 of the 130 Pfam-FunFams which represents about 30\% of the human kinase Pfam-FunFams obtained. We speculated that this 30\% represents the kinases most targeted by the pharmaceutical industry based on their relevance to human disease and those most studied as the current research in kinase therapeutics indicates that only 10-15\% of the kinases are being targeted \cite{li2016human, elkins2016comprehensive}. We also observed this ratio from our kinase-inhibitor set being used in this study.
 
-\redcomment{AMG: this speculation can be easily checked by looking at the functions of these kinases. Also, this kind of shows the upper limit of the real associations between FFs and drugs (not all these associations will be statistically significant and hence we won't consider all of them true associations)}
+%\redcomment{AMG: this speculation can be easily checked by looking at the functions of these kinases. Also, this kind of shows the upper limit of the real associations between FFs and drugs (not all these associations will be statistically significant and hence we won't consider all of them true associations)}
 
-\subsection*{Conservation of human kinase relatives in the Pfam-FunFams}
-We measured how conserved the kinases across the Pfam-FunFam are. The human relatives of the Pfam-FunFam were mapped to structure by SIFT-ing through UniProt sequences to PDB while the domain region were specified using Pfam. The structures were therefore evaluated for structural conservation by measuring RMSD using the SSAP algorithm. The groups were divided into the tyrosine-kinase Pfam-FunFam and serine/threonine Pfam-FunFams. The distribution of the RMSD across the two Pfam-FunFam groups is shown in figure \ref{ssap_measure} below.
+\begin{table}[H]
+\centering
+\caption{Pfam-FunFam families shared by the GSK and FDA dataset}
+\label{drgfam}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Pfam-FunFams    & GSK & FDA & GSK-targets & FDA-targets & Shared-targets \\ \hline
+PF00069.FF62355 & 1   & 2   & 2           & 16          & 2              \\ \hline
+PF00069.FF62314 & 4   & 1   & 3           & 6           & 2              \\ \hline
+PF00069.FF62345 & 5   & 1   & 7           & 12          & 5              \\ \hline
+PF07714.FF212   & 9   & 1   & 3           & 3           & 3              \\ \hline
+PF07714.FF13154 & 2   & 2   & 1           & 3           & 1              \\ \hline
+PF07714.FF13026 & 17  & 4   & 25          & 36          & 25             \\ \hline
+PF07714.FF13065 & 4   & 5   & 8           & 17          & 8              \\ \hline
+PF07714.FF123   & 23  & 7   & 5           & 5           & 5              \\ \hline
+\end{tabular}
+\end{table}
+Table \ref{drgfam} shows the list of the targets shared by the Pfam-FunFams that are shared by the GSK and FDA approved drugs. Although, the FDA approved drugs are quite small compared to the GSK-PKIS, we however observed a higher number of targets associated with them. This creates room for possible repurposing of the experimental drugs (GSK) to other targtes within the family.
+
+\subsection*{Structural conservation of human kinase relatives in the Pfam-FunFams}
+We measured how structurally conserved the kinases  are across a given Pfam-FunFam. The human relatives of the Pfam-FunFam were mapped to structure by using the SIFT mapping of  UniProt sequences to PDB, while the domain regions were specified using Pfam. The structures were then evaluated for structural conservation by measuring RMSD following the pairwise alignment by the SSAP algorithm \cite{orengo199636} and the superposition by ProFit \cite{MartinProFit2009}. The groups were divided into the tyrosine-kinase Pfam-FunFams and serine/threonine Pfam-FunFams. The distribution of the RMSD across the two Pfam-FunFam groups is shown in figure \ref{ssap_measure} below.
 \begin{figure}[H]
 \centering
 \begin{subfigure}{.8\textwidth}
@@ -270,28 +314,29 @@ We measured how conserved the kinases across the Pfam-FunFam are. The human rela
 \caption{Structural coherence and conservation of the Pfam-FunFam kinases measured using the SSAP-algorithm}
 \label{ssap_measure}
 \end{figure}
-The figure \ref{ssap_measure} shows the conservation of the relatives in these families as the observed RMSD was relatively below 2 in both the tyrosine kinases as well as the serine/threonine kinase FunFams. This therefore agrees with the overall view of the structural conservation of the kinases. However, some families show that Pfam-FunFams with members having high RMSD score which tend to distort the overall RMSD measure and indicating lack of structural coherence with relatives of the FunFams.\\
-A deeper insight into one of such families was carried out using the Pfam-FunFam PF07714.FF13122 which gave an overall RMSD below 2A but contains outliers that influence some members having RMSD as high as 5A in comparison to other members with low RMSD. The reason for this could be attributed to the multidomain architecture of the relatives of the Pfam-FunFam as majority of the relative in this protein have additional SH2-domain  while others either have an immunoglobulin-domains or no additional domain.
-
+Figure \ref{ssap_measure} suggest significant structural conservation of relatives in these families. As for many comparisons, the observed RMSD was below 2 in both the tyrosine kinases as well as the serine/threonine kinase FunFams. This supports the overall view of structural conservation of the kinases in the literature \cite{manning2002protein, taylor2011protein, elkins2016comprehensive,roskoski2016classification}. However, in some Pfam-FunFams pairs of relatives have a high RMSD score which tends to distort the overall RMSD measure, indicating lack of structural coherence of relatives in these FunFams.\par
+A deeper insight into one of such families was carried out using the Pfam-FunFam PF07714.FF13122 which gave an overall RMSD below 2A but contains outliers having RMSD as high as 5A. The reason for this could be attributed to the multidomain architecture of the relatives of the Pfam-FunFam as majority of the relative in this protein have additional SH2-domain  while others either have an immunoglobulin-domains or no additional domain.
 
 \subsection*{Enrichment test of Pfam-FunFams associated with drug targets}
-\cite{anastassiadis2011comprehensive} reported the thorough characterization of the Published Kinase Inhibitor Sets (PKIS) and identified them as the chemical starting point for probing orphan kinases. They illustrated the utility of these compounds for developing selective inhibitors against untargeted kinases LOK and SLK. Thus, the use of domain families could help increase the coverage of potential targets of the kinase-inhibitor set as the targeted kinases are about 10-15\% . We used our enriched FunFam program (see chapter two) to test for the overrepresentation of drugs in our FunFams. This involves using a binomial test followed by multiple testing for correction to determine the most appropriate FunFam with which a Kinase inhibitor associates. We found that PKIS-drugtargets were overrepresented in 30 Pfam-FunFam at p-value $\leq$ 0.05. 109 PKIS were found to be associated with the 30 Pfam-FunFams. \\
+The Published Kinase Inhibitor Sets (PKIS) was identified as the chemical starting point for probing orphan kinases. The study by \cite{anastassiadis2011comprehensive} illustrated the utility of these compounds for developing selective inhibitors against untargeted kinases LOK and SLK . Thus, the use of domain families could help increase the coverage of potential targets of the kinase-inhibitor set as the targeted kinases are about 10-15\% . We used our FunFam-target enrichment analysis protocol (see chapter 2) to test for the overrepresentation of drugs in our FunFams. \par This potocol uses a binomial test followed by multiple testing for correction to determine the most appropriate FunFam with which a Kinase inhibitor associates. We found that 109 PKIS-drugs were overrepresented in 30 Pfam-FunFam at p-value $\leq$ 0.05.Figure \ref{distdrugFF} shows the distribution of these 30 FunFams and the numbers of drugs they are associated with.
 \begin{figure}[H]
 	\includegraphics[width=.8\linewidth]{figures/ffdrugdis.png}
 	\centering
-	\caption{Distribution of drugs in the overrepresented FunFams}
+	\caption{Distribution of drugs associated with FunFams}
 	\label{distdrugFF}
 \end{figure}
-As shown in figure \ref{distdrugFF}, we observed that 70\% of the enriched Pfam-FunFams were associated with more than 2 kinase inhibitors from the PKIS set. This enriched Pfam-FunFam dataset was used for further analysis of the protein-kinase inhibitor targets on protein-protein interaction network.\\
+As shown in figure \ref{distdrugFF}, we observed that 70\% of the enriched Pfam-FunFams were associated with more than 2 kinase inhibitors from the PKIS set. This enriched Pfam-FunFam dataset was used for further analysis of the protein-kinase inhibitor targets on protein-protein interaction network.\par
 The Pfam-FunFam-drug interaction was represented in network for visualization in Cytoscape as shown in figure \ref{pfam-chembl} while the names of the overrepresented Pfam-FunFams were identify using our in-house program for the UniProt description  of protein sequences as shown in table \ref{pfam-drug}.
 \begin{figure}[H]
 	\includegraphics[width=.9\linewidth]{figures/pfam_chembl.png}
 	\centering
-	\caption{Pfam-FumFam-drug interaction network. In this network, the green coloured square node represents the CheMBL protein kinase inhibitors while the purple coloured circle nodes are the Pfam-FunFam whose relative are quite coherent with a mean RMSD$\leq$ 2 while the blue coloured circle are Pfam-FunFam with RMSD value $\geq$ 2.5. The size of each node reflects the numbers of targets (relatives)\redcomment{AMG: Only known drug targets or all relatives? If all relatives, this meas there is room to find new potential targets for the PKI associated with the FFs} in each family. Also labelled are some interesting families with relatives  $\geq$ 5 and interacting with at least 5 drugs.}
+	\caption{Pfam-FumFam-drug interaction network. In this network, the green coloured square node represents the CheMBL protein kinase inhibitors while the purple coloured circle nodes are the Pfam-FunFam whose relative are structurally coherent with a mean RMSD$\leq$ 2 while the blue coloured circle are Pfam-FunFam with RMSD value $\geq$ 2.5. The size of each node reflects the numbers of targets (relatives)
+%\redcomment{AMG: Only known drug targets or all relatives? If all relatives, this meas there is room to find new potential targets for the PKI associated with the FFs}
+in each family. Also labelled are some families with relatives  $\geq$ 5 and interacting with at least 5 drugs.}
 	\label{pfam-chembl}
 \end{figure}
 
-
+\iffalse
 \begin{table}[H]
 \fontsize{9}{10}\selectfont
 \centering
@@ -333,13 +378,20 @@ PF07714.FF13154 & LIM domain kinase 2                                           
 \end{table}
 
 \redcomment{AMG: Maybe check for the promiscuity within a FunFam (i.e. promiscuity of PKI among the relatives of a FF) for those FF that are/seem to be very important in cancer? This would provide us with interesting material for discussion}
-
+\fi
 \subsection*{Network Analysis of the Pfam-FunFams Enriched with Drug Targets}
-The representation of proteins on a network gives a view of the information flow and interactors for biological process. We obtained a functional protein assocaiation network for human from the STRING database version 10.0. We filtered this data and only used those edges with a combined and database score of $\geq$ 800 which correspond to those PPI with high reliabilty. This gave 219,608 physical interactions between 10,430 proteins. We extracted the largest connected subgraph and then computed the node centralities for drug targets from the enriched Pfam-FunFams using centrality measures such as the betweenness centrality and PageRank. 
-\subsubsection*{Centrality Measure}
-Centrality measures identify important nodes relative to other nodes within the network. Such measures include the degree, betweenness centrality as well as the PageRank. The degree of a node is the number of connections (edges) it shares with other nodes. The betweenness centrality (BC) is however the fraction of the number of shortest paths that pass through each node. The BC measures how often a node occurs on all the shortest paths between two nodes. Therefore, a node with high BC influences the flow of information in the network. \[c_B(v) =\sum_{s,t \in V} \frac{\sigma(s, t|v)}{\sigma(s, t)}\]\\
-\textit{where $V$ is the set of nodes, $\sigma(s, t)$ is the number of shortest (s, t)-paths, and $\sigma(s, t|v)$ is the number of those paths passing through some node v other than s, t. If s = t, $\sigma(s, t) = 1$, and if v $\in {s, t}$, $\sigma(s, t|v) = 0$}\\
-We measured the topological properties of the targeted kinases and compared them to all human kinase and all proteins in a given human functional network. we defined here "Hubs" as the top 20\% nodes with highest degree (connections) while "High-BC" are those top 20\% nodes with the highest betweenness centrality. The "Bottlenecks" we have defined as those nodes within the "High-BC" but excluded from "Hubs" i.e. those with low degree connectivity. The "Hubs \& High-BC" are those set of nodes in the Hubs group with high betweenness centrality measure. 
+The representation of proteins on a network gives a view of the information flow and interactors for biological process. We obtained a functional protein association network for human from the STRING database version 10.0 \cite{szklarczyk2014string}. We chose STRING database as it is widely used and oftentimes updated. STRING database generate scores  to measure reliabilty of an interaction by benchmarking predicted interactions against common set of true positive associations. We filtered this data by applying a cut-off of 800 on the combined score of the interaction which correspond to those PPI with high reliabilty. This gave 219,608 physical interactions between 10,430 proteins. We extracted the largest connected subgraph and then computed the node centralities for drug targets as well as the enriched Pfam-FunFams using centrality measures such as the betweenness centrality.
+\subsection*{Centrality Measure}
+Centrality measures identify important nodes relative to other nodes within the network. Such measures include the degree, closeness centrality, betweenness centrality as well as the PageRank. The degree of a node is the number of connections (edges) it shares with other nodes. The betweenness centrality (BC) is the fraction of the number of shortest paths that pass through each node. The BC measures how often a node occurs on all the shortest paths between two nodes. Therefore, a node with high BC influences the flow of information in the network. \[c_B(v) =\sum_{s,t \in V} \frac{\sigma(s, t|v)}{\sigma(s, t)}\]\\
+\textit{where $V$ is the set of nodes, $\sigma(s, t)$ is the number of shortest (s, t)-paths, and $\sigma(s, t|v)$ is the number of those paths passing through some node v other than s, t. If s = t, $\sigma(s, t) = 1$, and if v $\in {s, t}$, $\sigma(s, t|v) = 0$}
+
+\subsubsection*{Centrality measures and similarities of kinase inhibitor targets}
+We measured the topological properties of the targeted kinases and compared them to other human kinases (excluding the targeted kinases) and all proteins in a given human functional network. we defined here "Hubs" as the top 20\% of nodes with the highest degree (connections) while "High-BC" are those top 20\% of nodes with the highest betweenness centrality. The "Bottlenecks" are defined as those nodes within the "High-BC" but excluded from "Hubs" i.e. those with low degree connectivity. The "Hubs \& High-BC" are those set of nodes in the Hubs group with high betweenness centrality measure. \par
+The measures of degree and betweenness centrality are amongst the most profound topological properties of nodes in a protein interaction network. The bottlenecks in a protein functional network represents key connectors and show functional and dynamic properties \cite{yu2007importance}. Table \ref{hubs-bottlenecks} shows the comparison of the targeted kinases, all human kinases and all human proteins in a functional network. The proportion is a measured relative to each group as; 
+\[
+\frac{\text{Number of Hubs or bottlenecks in targeted set} \times100 } {\text{Total number proteins in targeted set}}
+\]
+
 \begin{table}[H]
 \centering
 \caption{Topological analysis of kinases in a functional protein network}
@@ -347,97 +399,66 @@ We measured the topological properties of the targeted kinases and compared them
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 \textit{Groups}             & \textit{Hubs (\%)} & \textit{Bottlenecks (\%)} & \textit{High-BC (\%)} & \textit{Hubs \& High-BC (\%)} \\ \hline
-\textit{Targeted Kinases}   & \textit{22.64}     & \textit{2.8}              & \textit{21.69}        & \textit{24.52}                \\ \hline
-\textit{All-human kinases}  & \textit{8.08}      & \textit{2.15}             & \textit{7.14}         & \textit{9.3}                  \\ \hline
-\textit{All-human proteins} & \textit{19.68}     & \textit{11.56}            & \textit{8.12}         & \textit{19.68}                \\ \hline
+\textit{Targeted kinases}   & \textit{42.06}     & \textit{5.61}              & \textit{41.12}        & \textit{46.73}                \\ \hline
+\textit{Other-human kinases}  & \textit{19.59}      & \textit{6.76}             & \textit{16.44}         & \textit{23.20}                  \\ \hline
+\textit{All-human proteins} & \textit{19.19}     & \textit{11.51}            & \textit{7.47}         & \textit{18.98}                \\ \hline
 \end{tabular}
 \end{table}
-The measure of degree and betweenness centrality are some of the most profound topological properties of nodes in a protein interaction network. The bottlenecks in a protein functional network represents key connectors and surprisingly show functional and dynamic properties \cite{yu2007importance}. The \redinsert{Table \ref{hubs-bottlenecks} shows the comparison of the targeted kinases, all human kinases and all human proteins in a functional network}. The proportion is a measured relative to each group as; 
-\[
-\frac{\text{Number of Hubs or bottlenecks in targeted set} \times100 } {\text{Total number proteins in targeted set}}
-\]
-The result therefore shows that only a small percentage of the targeted kinases are bottlenecks. Our observation shows that on average, the betweenness centrality is lower in the targeted kinases compared to all the proteins in the network, however, the violin oplot in figure \ref{bottle_measured} indicates that some of the targeted kinase have a higher betweenness centrality measure. We hypothesize that bottlenecks will be a good drug target as they are central in the network but associated with less nodes (thus less functional disintegration expected). However, there is still a lot of debate on this opinion as some studies have suggested bottlenecks to be associated with side effects. \redcomment{Discuss this further using this Csermely paper 1.	Perez-Lopez, Á. R. et al. Targets of drugs are generally, and targets of drugs having side effects are specifically good spreaders of human interactome perturbations. Sci Rep 1–9 (2015). doi:10.1038/srep10182}
 
+The results therefore show that only a small percentage of the targeted kinases are bottlenecks. The kinases are most likely to be hubs and they are highly central in protein functional network with high betweenness centrality (Mannwhitney test for hubs and centrality between kinases and other proteins in a network; pvalue = 2.54e-13 amd 6.617e-25). We hypothesize that bottlenecks will be a good drug target as they are central in the network but associated with less nodes (thus less functional disintegration expected). However, there is still a lot of debate on this opinion as some studies have suggested bottlenecks to be associated with side effects.  For instance, in the studies by \cite{perez2015targets}, they observed that targets of drugs with side effects are better spreader of pertubation in the interactome indicating that these targets are quite central and they disrupts the interactome more as compared to the drug-targets without side effects or non-target proteins. %\redcomment{Discuss this further using this Csermely paper 1.	Perez-Lopez, Á. R. et al. Targets of drugs are generally, and targets of drugs having side effects are specifically good spreaders of human interactome perturbations. Sci Rep 1–9 (2015). doi:10.1038/srep10182}
+
+\subsection*{Dispersion measure of targets of kinase inhibitor in a protein network}
+We also investigated the behaviour of kinase inhibitor targets in human protein interaction network and measured the dispersion of the targets in network using dispersion measures such as the matrix similarity as well as the shortest path distance across all the targets of a drug a measure which was adapted from the study conducted by \cite{menche2015uncovering} to study disease genes in network.\\
+We selected all the targeted proteins from ChEMBL 23 and excluded the kinases whilst we grouped all kinase drugs together (i.e. GSK-PKIS and the FDA approved drug). We also consider less specific interaction between drugs and proteins as a way of classifying off-targets using a pchembl$<$6.
 \begin{figure}[H]
-	\includegraphics[width=.9\linewidth]{figures/bottlenecks_ff2.png}
+	\includegraphics[width=\linewidth]{figures/simplotk.pdf}
 	\centering
-	\caption{Violin plot showing bottlenecks of all proteins in a functional protein network compared to the kinases in the network. We observed a significant difference between the bottlenecks of all proteins compared to the kinases (pvalue = 1.394e-14) but no significance observed in the bottlenecks associated with the targeted kinases and all human kinases (pvalue=0.740).}
-	\label{bottle_measured}
+	\caption{Box plot comparing the distribution of the matrix similarity of the various group against random. (NS indicate not statistically significant, while \textbf{**} indicate statistical significance between pairs)}
+		\label{ksim_targets}
 \end{figure}
-
-Furthermore, we consider the Pfam-FF which we have identified using our overrepresentation analysis and measure the topological properties of the\redinsert{ir} relatives, hence, calculating the proportions of bottlenecks in each domain-family as a fraction of the entire relatives in the given funfam \redinsert{FunFam with capitals?}.
-
-\begin{table}[H]
-\fontsize{8}{8}\selectfont
-\centering
-\caption{The topological analysis of the relatives within a given Pfam-FF}
-\label{Pfam-topology}
-\begin{tabular}{|l|l|l|}
-\hline
-\textit{Pfam-FF}         & \textit{Bottlenecks (\%)} & \textit{Hubs (\%)} \\ \hline
-\textit{PF00069.FF62561} & \textit{0}                & \textit{0}         \\ \hline
-\textit{PF00069.FF62351} & \textit{3.77}             & \textit{7.55}      \\ \hline
-\textit{PF00069.FF62318} & \textit{1.2}              & \textit{16.87}     \\ \hline
-\textit{PF00069.FF62355} & \textit{0}                & \textit{3.49}      \\ \hline
-\textit{PF00069.FF62314} & \textit{2}                & \textit{16}        \\ \hline
-\textit{PF07714.FF212}   & \textit{0}                & \textit{37.5}      \\ \hline
-\textit{PF07714.FF13154} & \textit{0}                & \textit{9.52}      \\ \hline
-\textit{PF07714.FF13122} & \textit{0}                & \textit{21.43}     \\ \hline
-\textit{PF00069.FF62866} & \textit{100}              & \textit{0}         \\ \hline
-\textit{PF07714.FF13026} & \textit{0.51}             & \textit{8.08}      \\ \hline
-\textit{PF07714.FF13065} & \textit{0}                & \textit{1.92}      \\ \hline
-\textit{PF00069.FF37132} & \textit{0}                & \textit{0}         \\ \hline
-\textit{PF00069.FF62706} & \textit{0}                & \textit{0}         \\ \hline
-\textit{PF00069.FF62744} & \textit{7.69}             & \textit{0}         \\ \hline
-\textit{PF00069.FF25168} & \textit{0}                & \textit{50}        \\ \hline
-\textit{PF00069.FF62682} & \textit{0}                & \textit{0}         \\ \hline
-\textit{PF00069.FF62684} & \textit{0}                & \textit{16.67}     \\ \hline
-\textit{PF00069.FF62341} & \textit{0}                & \textit{5.13}      \\ \hline
-\textit{PF00069.FF62363} & \textit{8}                & \textit{0}         \\ \hline
-\textit{PF00069.FF62345} & \textit{4.84}             & \textit{0}         \\ \hline
-\textit{PF00069.FF31429} & \textit{6.25}             & \textit{0}         \\ \hline
-\textit{PF00069.FF62348} & \textit{0}                & \textit{3.57}      \\ \hline
-\textit{PF07714.FF123}   & \textit{0}                & \textit{44.44}     \\ \hline
-\textit{PF00069.FF7038}  & \textit{0}                & \textit{14.29}     \\ \hline
-\textit{PF00069.FF13563} & \textit{0}                & \textit{0}         \\ \hline
-\textit{PF00069.FF62583} & \textit{0}                & \textit{6.06}      \\ \hline
-\textit{PF00069.FF62585} & \textit{0}                & \textit{2.94}      \\ \hline
-\textit{PF07714.FF13096} & \textit{0}                & \textit{26.67}     \\ \hline
-\textit{PF00069.FF31839} & \textit{0}                & \textit{0}         \\ \hline
-\textit{PF00069.FF62179} & \textit{0}                & \textit{0}         \\ \hline
-\end{tabular}
-\end{table}
-
-The result obtained in table \ref{Pfam-topology} indicate that most of the relatives of the kinase-domain Pfam-FunFam are majorly within the hub-class. This indication is not far-fetched as it suggest the high connectivity of the kinase and interaction with several substrate. \redcomment{AMG: Expand your discussion with the importance of the FFs with a high proportion of bottlenecks. Since bottlenecks have an important role in maintaining information flow through the network they can be strategical targets if we want to disrupt the network. What are these FFs with high proportion of bottlenecks?}
-
-
-\subsubsection*{Kernel Similarity of Drug Targets in Pfam-FunFams in a Protein Functional Network}
-Following our initial hypothesis that FunFams whose relatives aggregate in a network neighbo\redinsert{u}rhood are likely to be enriched with potential targets and free of off-targets, we assessed the kernel similarity of all the Pfam-FunFam kinases.  The kernel similarities have a score ranging from 0-1 with 1 indicating a high similarity and 0 showing no similarity. 
+The result in figure \ref{ksim_targets} show that there is no difference in the observed matrix similarity of the kinase-targets and other drug targets (with pvalue = 0.9113). This observation is consistent with our previous report about drug targets having higher similarities in the protein functional network \cite{moya2017structural}. However when we compared the matrix similarities of the drug targets as well as the kinase inhibitor targets with drug off-targets, we found a statistically significant difference of the observed matrix similarities (pvalue = 2.09e-10 and 4.419e-9) for the comparison of drug off-target similarity with drug-targets and kinase inhibitor targets respectively.\par
+Using the \cite{menche2015uncovering} score called "DS-Score" which measures the mean distance of seperation of genes within a cluster. It is expected that the lower the "DS-Score", the more aggregated the proteins are in the network. We also used this measure to compare the drug targets aggregation in a given functional network.
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{figures/ds_plot0610.pdf}
+	\centering
+	\caption{The cummulative probability plot comparing "DS-Score" of the drug targets, kinase inhibitor targets and off-targets.}
+		\label{ds_targets}
+\end{figure}
+The result (figure \ref{ds_targets}), show that the DS-Score is higher in offtargets as compared to the drug targets as well as the kinase targets and this variation is statistically significant (pvalue = 7.035e-8 and 0.0001542. There is however no statistically significant difference between the DS-S35core of the drug targets and kinase inhibitor targets (p=0.1447). This result therefore show that the offtargets are dispersed in the network as compared to the targeted proteins which are aggregated in the network. We have therefore shown using two different measures "matrix similarity" and "DS-Scores" that targets are clustered in the network as compared to offtargets or random proteins. Previous studies have also considered diseased proteins to be clustered in modules in protein network \cite{menche2015uncovering}, if we therefore considered the disease proteins as the drug targets in a network, the aggregation which we observed in our study therefore implies that drug targets behave like disease protein in the human protein network. 
+                                         
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+\subsection*{Dispersion of Drug Targets in Pfam-FunFams in a Protein Functional Network}
+Following our initial hypothesis that FunFams whose relatives aggregate in a network neighbourhood are likely to be enriched with potential targets and free of off-targets, we assessed the matrix similarity of all the Pfam-FunFam kinases.  The matrix similarities have a score ranging from 0-1 with 1 indicating a high similarity, i.e. close proximity in the network and 0 showing no similarity. 
 \begin{figure}[H]
 	\includegraphics[width=.8\linewidth]{figures/ksim_plot.png}
 	\centering
-	\caption{Distribution of the kernel similarity measure across the Pfam-FunFam.}
+	\caption{Distribution of the matrix similarity measure across the Pfam-FunFam.}
 	\label{ksim_plot}
 \end{figure}
-The results indicate that most of the Pfam-FunFam relatives are scattered across the functional protein network with majority of the Pfam-FunFam family having a similarity score lower than 0.5. This may explain one of the reason for the side effects associated with protein kinase inhibitors as their targets arequite diverse and could affect many biological pathways i.e. elicits multiple pharmacological responses in a given organism.\\
-We then compared the kernel similarity of targeted kinase, all human kinases and the all the human proteins in the protein functional network. 
+The results indicate that most of the Pfam-FunFam relatives are scattered across the functional protein network with majority of the Pfam-FunFam family having a similarity score lower than 0.5. Although we've have not shown a given threshold for the cutoff for prediction of side effect, but majority of the kinases have a matrix similarity lower than 0.5 and this may explain the side effects associated with protein kinase inhibitors as their targets are quite distributed in the network and could affect many biological pathways i.e. elicits multiple pharmacological responses in a given organism.\par
+We then compared the matrix similarity of targeted kinase in each FunFam against other relatives of the same family to compare the network properties of targets and other non-targeted relatives of the same FunFam. 
 \begin{figure}[H]
-	\includegraphics[width=\linewidth]{figures/ksim_hum.png}
+\centering
+\begin{subfigure}{0.8\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{figures/pfam_sim0910.pdf}
+  \caption{Bar-plot of the matrix similarity of targets in each family compared to other non-targeted relatives}
+  \label{sim_plot}
+\end{subfigure}\\
+\begin{subfigure}{0.8\textwidth}
+  \includegraphics[width=0.9\linewidth]{figures/pfamds_plot.pdf}
 	\centering
-	\caption{Cummulative probability plot of the kernel similarity of all human targets compared against PKI-targets}
-	\label{sim_plot}
-\end{figure}
-We observed as shown in figure \ref{sim_plot} that the targeted kinases has a lower kernel similarity as compared to the distribution of the kernel similarity of the all human proteins in the network however, there is no difference between the targetd kinases and all the human kinases as they show the same distribution as observed in the figure \ref{sim_plot}. To furthermore corroborate  our observation, we used another modular measure called DS$\_$score which was reported by \cite{menche2015uncovering}. The DS$\_$score measures the network distance of proteins  belonging to a group of drug-targets and compares their closeness to random expectation. We observed that there is a significant difference between DS$\_$score of the target proteins compared to random ($P$ $\le$ $1.116\times10^{-8}$, $Mann-Whitney$ \text{U-test}). The lower the DS$\_$score, the more aggregated the proteins in a network. This observation hence shows that the targeted kinases are quite clustered in a protein functional network compared to random proteins. 
-\begin{figure}[H]
-	\includegraphics[width=.9\linewidth]{figures/mean_ds.png}
-	\centering
-	\caption{Distribution plot of the DS-measure of PKI-targets  compared against random proteins in a protein functional network}
+	\caption{Bar-plot of the DS-Scores of targets in each family compared to other non-targeted relatives}
 	\label{ds_plot}
+\end{subfigure}
+\caption{Similarity measure across the Pfam-kinase family measured using the matrix similarity and DS-Scores}
+\label{pfam_sim}
 \end{figure}
+As shown in figure \ref{pfam_sim} the targeted kinases have a higher matrix similarity compared to other relatives of the same FunFam. The same observation was also found using a different measure (DS-Score) which indicate that majority of the kinase target are close in the network with lower DS-Score as we have earlier shown that the lower the DS-Score, the more aggregated a set of proteins are in the network  \cite{menche2015uncovering}
 
 \subsection*{Structural coherence of the binding site of the enriched Pfam-FunFam relatives}
-The work published by \cite{elkins2016comprehensive} reported some of the solved structures of the binding of inhibitors from the PKIS with some kinases. The crystal structures of the inhibitor (CHEMBL237571) with the lymphocyte-oriented kinase (LOK) in the inactive DFG-out state (PDB-ID:4USD) and active DFG-in state (PDB-ID: 4USE) have been deposited in PDB. Therefore, using this example, we were interested in observing the binding site conservation across members of the Pfam-FunFam this target belongs to.\\
-The target for this inhibitor belongs to the Pfam-FunFam PF00069.62355 (a STE-group kinase) that has about 80 relatives. Using the SIFTS mapping of UniProt-sequences to PDB structures, we were able to identify 15 members (about 18\%) of this family with PDB structures. In case of multiple structures of the same kinase, firstly, we find the structure without ligands, otherwise we chose the best resolved structure for the particular kinase.\\
+The work published by \cite{elkins2016comprehensive} reported some solved structures for the binding of inhibitors from the PKIS with some kinases. Crystal structures of the inhibitor (CHEMBL237571) bound to the lymphocyte-oriented kinase (LOK) in the inactive DFG-out state (PDB-ID:4USD) and active DFG-in state (PDB-ID: 4USE) have been deposited in PDB. Using this example, we examined the binding site conservation across members of the Pfam-FunFam this target belongs to.\par
+The target for this inhibitor belongs to the Pfam-FunFam PF00069.62355 (a STE-group kinase) that has about 80 relatives. Using the SIFTS mapping of UniProt-sequences to PDB structures, we were able to identify 15 members (about 18\%) of this family with PDB structures. In case of multiple structures of the same kinase, firstly, we find an unbound structure, or if there are no unbound structures then we chose the best resolved structure for the particular kinase.\\
 
 \begin{table}[H]
 \centering
@@ -463,30 +484,29 @@ O00506     & 2xik   & 1.97           \\ \hline
 O94804     & 2j7t   & 2.00           \\ \hline
 \end{tabular}
 \end{table}
-We structurally superposed the members of this family to give a pictorial representataion of the conservation of the relatives and binding residues interacting with the CHEMBL237571. This family was found to be structurally coherent as the SSAP score gave an RMSD of $1.11 \pm 0.48$. 
+We structurally superposed all the members of this family. This family was found to be structurally coherent as we used ProFit algorithm guided by SSAP alignnment and obtained an average RMSD of $1.11 \pm 0.48$. 
 \begin{figure}[H]
 	\includegraphics[width=.8\linewidth]{figures/superpose_4use.png}
 	\centering
-	\caption{Structural alignment and superposition of the relatives in Pfam-FunFam based on the alignment of the binding region. The interacting residues are coloured in yellow while the secondary structures are coloured accordingly (Beta sheet(blue), alpha (Magenta), the inhibitor is coloured in rainbow.}
+	\caption{Structural alignment and superposition of the relatives in Pfam-FunFam (PF00069.62355) based on the alignment of the binding region. The interacting residues are coloured in yellow while the secondary structures are coloured accordingly (Beta sheet(blue), alpha (Magenta), the inhibitor is coloured in rainbow.}
 	\label{struct_align}
 \end{figure}
 \subsection*{Network analysis of MutFams enriched with kinases}
-We considered the network properties of mutation families (MutFams) which are enriched domain families that are highly mutated in a disease condition (cancer in this case) and compare the outcome with human variation data (HumVar). This approach was taken to study the kinases involved in diseases and examine the network properties of these mutation families in comparison with the targeted kinase FunFams.
+We considered the network properties of mutationally enriched FunFams (MutFams). These families are enriched in cancer mutations (taken from the COSMIC database \cite{bamford2004cosmic}. We compared these network properties with FunFams enriched in non-disease associated neutral variations(mutation data taken from HumVar \cite{capriotti2006predicting}). This approach was taken to find out whether the kinases linked to diseases are more dispersed in the netweork making it hard to target them with drugs.
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{figures/mutvar.png}
 	\centering
 	\caption{DS-measure of the MutFam in comparison with the HUMVAR}
 	\label{mutvar}
 \end{figure}
-Figure \ref{mutvar} shows a plot of the distribution of the DS-score between MutFams and HumVar. There is a significant difference between these two sets of genes as the MutFams are highly clustered in the human functional network as compared to the HumVar ($P=$ $0.00645$). \\
-This indicate that the relatives of the MutFams are closely associated in the protein network and the MutFams therefore provides a reasonable annotation of disease genes with lower side effects anticipated when these families are targeted in a diseased condition.
+Figure \ref{mutvar} shows a plot of the distribution of the DS-score between MutFams and HumVar. There is a significant difference between these two sets of genes as the relatives of MutFams are highly clustered in the human functional network compared to the relatives in FunFams ($P=$ $0.00645$). MutFams therefore provides a reasonable annotation of disease genes with lower side effects which makes them suited to targetting by inhibitors.
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{figures/muttarg.png}
 	\centering
 	\caption{DS-measure of the MutFam in comparison with the targeted kinases}
 	\label{muttarg}
 \end{figure}
-The DS-score of the MutFams were compared with the targeted kinases (figure \ref{muttarg}), these different sets of genes tend to be clustered in the same fashion as there is no difference in the observed DS-score of the MutFams and the targeted kinases ($P=$ $0.0191$). This indicate that the targeted kinases shares similar network characteristics as the mutated sets of genes that are implicated in human diseases. These MutFams are potential therapeutic targets that could be harnessed and considered for therapeutic purposes.
+The DS-score of the MutFams were compared with the targeted kinases (figure \ref{muttarg}), these different sets of genes tend to be clustered in the same fashion as there is no difference in the observed DS-score of the MutFams and the targeted kinases ($P=$ $0.0191$). This indicate that the targeted kinases share similar network characteristics as the mutated sets of genes that are implicated in human diseases. These MutFams are therefore potential therapeutic targets that could be harnessed and considered for therapeutic purposes.
 
 \begin{table}[!htbp]
 \fontsize{9}{10}\selectfont
@@ -495,7 +515,7 @@ The DS-score of the MutFams were compared with the targeted kinases (figure \ref
 \label{mutfam-table}
 \begin{tabular}{|l|l|l|l|l|l|l|}
 \hline
-Cancer Types & CATH-FunFam          & Pfam-FunFam     & \%overlap & No of Drugs & Kernel-sim & DS-score \\ \hline
+Cancer Types & CATH-FunFam          & Pfam-FunFam     & \%overlap & No of Drugs & matrix-sim & DS-score \\ \hline
 LGG          & 1.10.510.10.FF78531  & PF07714.FF13154 & 47.1      & 2           & 0.846             & 1.2      \\ \hline
 LGG          & 1.10.510.10.FF79008  & PF00069.FF27817 & 46.2      &             & 0.541267          & 1        \\ \hline
 BLCA         & 1.25.40.70.FF2223    & PF00454.FF1812  & 43.2      &             & 0.662619          & 1.5      \\ \hline

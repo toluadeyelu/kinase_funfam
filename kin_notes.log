@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.21)  27 SEP 2017 11:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.21)  3 NOV 2017 16:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,26 +715,28 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 43.
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 45.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 45.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 46.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 45.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 46.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 45.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 46.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 45.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 46.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -744,18 +746,6 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 47.
-
-<figures/kinome.jpg, id=1, 656.4525pt x 929.4725pt>
-File: figures/kinome.jpg Graphic file (type jpg)
- <use figures/kinome.jpg>
-Package pdftex.def Info: figures/kinome.jpg used on input line 51.
-(pdftex.def)             Requested size: 341.43436pt x 483.44196pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--55
-
- []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -766,33 +756,40 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
+<figures/kinome.jpg, id=9, 656.4525pt x 929.4725pt>
+File: figures/kinome.jpg Graphic file (type jpg)
+ <use figures/kinome.jpg>
+Package pdftex.def Info: figures/kinome.jpg used on input line 52.
+(pdftex.def)             Requested size: 384.10959pt x 543.85979pt.
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  []
 
-[2 <./figures/kinome.jpg>]
+[3 <./figures/kinome.jpg>]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 61.
 
-<figures/agc_kinase.jpg, id=13, 290.99867pt x 205.93752pt>
+<figures/agc_kinase.jpg, id=16, 290.99867pt x 205.93752pt>
 File: figures/agc_kinase.jpg Graphic file (type jpg)
 
 <use figures/agc_kinase.jpg>
 Package pdftex.def Info: figures/agc_kinase.jpg used on input line 64.
-(pdftex.def)             Requested size: 341.43436pt x 241.65292pt.
+(pdftex.def)             Requested size: 298.75262pt x 211.44553pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--68
+Underfull \hbox (badness 10000) in paragraph at lines 62--68
 
  []
 
-[3] <figures/camk_kinase.jpg, id=17, 322.97655pt x 250.70654pt>
+<figures/camk_kinase.jpg, id=17, 322.97655pt x 250.70654pt>
 File: figures/camk_kinase.jpg Graphic file (type jpg)
 
 <use figures/camk_kinase.jpg>
 Package pdftex.def Info: figures/camk_kinase.jpg used on input line 72.
 (pdftex.def)             Requested size: 341.43436pt x 265.03612pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--76
+Underfull \hbox (badness 10000) in paragraph at lines 70--76
 
  []
 
@@ -803,295 +800,337 @@ File: figures/ck.jpg Graphic file (type jpg)
 Package pdftex.def Info: figures/ck.jpg used on input line 80.
 (pdftex.def)             Requested size: 341.43436pt x 82.20999pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--84
+Underfull \hbox (badness 10000) in paragraph at lines 78--84
 
  []
 
 [5 <./figures/camk_kinase.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
 <figures/rtk.jpg, id=25, 629.2308pt x 503.481pt>
 File: figures/rtk.jpg Graphic file (type jpg)
  <use figures/rtk.jpg>
-Package pdftex.def Info: figures/rtk.jpg used on input line 94.
+Package pdftex.def Info: figures/rtk.jpg used on input line 93.
 (pdftex.def)             Requested size: 426.79134pt x 341.5021pt.
 
 <figures/nrtk.jpg, id=26, 612.2875pt x 280.04625pt>
 File: figures/nrtk.jpg Graphic file (type jpg)
  <use figures/nrtk.jpg>
-Package pdftex.def Info: figures/nrtk.jpg used on input line 100.
+Package pdftex.def Info: figures/nrtk.jpg used on input line 99.
 (pdftex.def)             Requested size: 426.79134pt x 195.20203pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--106
+Underfull \hbox (badness 10000) in paragraph at lines 88--105
 
  []
 
-[6 <./figures/ck.jpg (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
+[6 <./figures/ck.jpg (PNG copy)>] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-[7 <./figures/rtk.jpg> <./figures/nrtk.jpg (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--116
+[8 <./figures/rtk.jpg> <./figures/nrtk.jpg (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-<figures/atypical.jpg, id=35, 330.65125pt x 150.29602pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+<figures/atypical.jpg, id=38, 330.65125pt x 150.29602pt>
 File: figures/atypical.jpg Graphic file (type jpg)
 
 <use figures/atypical.jpg>
-Package pdftex.def Info: figures/atypical.jpg used on input line 123.
+Package pdftex.def Info: figures/atypical.jpg used on input line 121.
 (pdftex.def)             Requested size: 341.43436pt x 155.20795pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--127
+Underfull \hbox (badness 10000) in paragraph at lines 119--125
 
  []
 
-[8] <figures/atypical2.jpg, id=39, 337.04681pt x 239.83408pt>
+[9] <figures/atypical2.jpg, id=42, 337.04681pt x 239.83408pt>
 File: figures/atypical2.jpg Graphic file (type jpg)
 
 <use figures/atypical2.jpg>
-Package pdftex.def Info: figures/atypical2.jpg used on input line 130.
+Package pdftex.def Info: figures/atypical2.jpg used on input line 128.
 (pdftex.def)             Requested size: 256.0774pt x 182.22455pt.
-
-<figures/kinasedom.jpg, id=40, 308.352pt x 132.7359pt>
+ [10 <./figures/atypical.jpg>]
+<figures/kinasedom.jpg, id=46, 308.352pt x 132.7359pt>
 File: figures/kinasedom.jpg Graphic file (type jpg)
 
 <use figures/kinasedom.jpg>
-Package pdftex.def Info: figures/kinasedom.jpg used on input line 141.
+Package pdftex.def Info: figures/kinasedom.jpg used on input line 138.
 (pdftex.def)             Requested size: 426.79134pt x 183.7246pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--145
+Underfull \hbox (badness 10000) in paragraph at lines 136--142
 
  []
 
-[9 <./figures/atypical.jpg> <./figures/atypical2.jpg>] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+[11 <./figures/atypical2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-[11 <./figures/kinasedom.jpg>]
-<figures/proteinkinase.jpg, id=50, 354.95442pt x 471.3539pt>
+[12 <./figures/kinasedom.jpg>]
+<figures/proteinkinase.jpg, id=53, 354.95442pt x 471.3539pt>
 File: figures/proteinkinase.jpg Graphic file (type jpg)
 
 <use figures/proteinkinase.jpg>
-Package pdftex.def Info: figures/proteinkinase.jpg used on input line 152.
+Package pdftex.def Info: figures/proteinkinase.jpg used on input line 149.
 (pdftex.def)             Requested size: 298.75262pt x 396.73291pt.
- [12]
-<figures/actkin.jpg, id=54, 602.25pt x 448.67625pt>
+ [13]
+<figures/actkin.jpg, id=58, 602.25pt x 448.67625pt>
 File: figures/actkin.jpg Graphic file (type jpg)
  <use figures/actkin.jpg>
-Package pdftex.def Info: figures/actkin.jpg used on input line 162.
+Package pdftex.def Info: figures/actkin.jpg used on input line 159.
 (pdftex.def)             Requested size: 341.43436pt x 254.37888pt.
 
-[13 <./figures/proteinkinase.jpg>]
-<figures/Afatinib.jpg, id=59, 853.1875pt x 379.4175pt>
+[14 <./figures/proteinkinase.jpg>]
+<figures/Afatinib.jpg, id=62, 853.1875pt x 379.4175pt>
 File: figures/Afatinib.jpg Graphic file (type jpg)
 
 <use figures/Afatinib.jpg>
-Package pdftex.def Info: figures/Afatinib.jpg used on input line 173.
+Package pdftex.def Info: figures/Afatinib.jpg used on input line 170.
 (pdftex.def)             Requested size: 341.43436pt x 151.83957pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--177
+Underfull \hbox (badness 10000) in paragraph at lines 167--174
 
  []
 
-[14 <./figures/actkin.jpg>]
-<figures/erlotinib.jpg, id=64, 308.352pt x 150.8034pt>
+[15 <./figures/actkin.jpg>]
+<figures/erlotinib.jpg, id=67, 308.352pt x 150.8034pt>
 File: figures/erlotinib.jpg Graphic file (type jpg)
 
 <use figures/erlotinib.jpg>
-Package pdftex.def Info: figures/erlotinib.jpg used on input line 180.
+Package pdftex.def Info: figures/erlotinib.jpg used on input line 177.
 (pdftex.def)             Requested size: 341.43436pt x 166.98645pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--184
+Underfull \hbox (badness 10000) in paragraph at lines 175--181
 
  []
 
-[15 <./figures/Afatinib.jpg>]
-<figures/trametinib.jpg, id=69, 519.96027pt x 164.36629pt>
+[16 <./figures/Afatinib.jpg>]
+<figures/trametinib.jpg, id=72, 519.96027pt x 164.36629pt>
 File: figures/trametinib.jpg Graphic file (type jpg)
 
 <use figures/trametinib.jpg>
-Package pdftex.def Info: figures/trametinib.jpg used on input line 188.
+Package pdftex.def Info: figures/trametinib.jpg used on input line 185.
 (pdftex.def)             Requested size: 426.79134pt x 134.91916pt.
- [16 <./figures/erlotinib.jpg>]
-<figures/kinase_inhibitors.jpg, id=73, 427.86398pt x 379.89717pt>
+ [17 <./figures/erlotinib.jpg>]
+<figures/kinase_inhibitors.jpg, id=76, 427.86398pt x 379.89717pt>
 File: figures/kinase_inhibitors.jpg Graphic file (type jpg)
 
 <use figures/kinase_inhibitors.jpg>
-Package pdftex.def Info: figures/kinase_inhibitors.jpg used on input line 196.
-(pdftex.def)             Requested size: 341.43436pt x 303.17036pt.
- [17 <./figures/trametinib.jpg>] [18 <./figures/kinase_inhibitors.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Package pdftex.def Info: figures/kinase_inhibitors.jpg used on input line 192.
+(pdftex.def)             Requested size: 298.75262pt x 265.27116pt.
+ [18 <./figures/trametinib.jpg>] [19 <./figures/kinase_inhibitors.jpg>] [20] [2
+1]
+<figures/framework.png, id=90, 493.0922pt x 460.72125pt>
+File: figures/framework.png Graphic file (type png)
 
- []
+<use figures/framework.png>
+Package pdftex.def Info: figures/framework.png used on input line 212.
+(pdftex.def)             Requested size: 341.43436pt x 319.03687pt.
 
-[19]
-Overfull \hbox (9.11752pt too wide) in paragraph at lines 217--218
+Overfull \hbox (9.11752pt too wide) in paragraph at lines 220--220
 \OT1/ppl/m/n/10.95 (-20) made avail-able by GSK to the ex-ter-nal com-mu-nity [
 [], []].
  []
 
-[20] <figures/numb_drugs.png, id=87, 578.16pt x 433.62pt>
+[22 <./figures/framework.png>]
+<figures/activityplot.pdf, id=95, 578.16pt x 433.62pt>
+File: figures/activityplot.pdf Graphic file (type pdf)
+
+<use figures/activityplot.pdf>
+Package pdftex.def Info: figures/activityplot.pdf used on input line 226.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [23]
+<figures/dsfdagsk.pdf, id=100, 578.16pt x 433.62pt>
+File: figures/dsfdagsk.pdf Graphic file (type pdf)
+ <use figures/dsfdagsk.pdf>
+Package pdftex.def Info: figures/dsfdagsk.pdf used on input line 236.
+(pdftex.def)             Requested size: 384.10959pt x 288.0824pt.
+
+[24 <./figures/activityplot.pdf>]
+<figures/numb_drugs.png, id=140, 578.16pt x 433.62pt>
 File: figures/numb_drugs.png Graphic file (type png)
 
 <use figures/numb_drugs.png>
-Package pdftex.def Info: figures/numb_drugs.png used on input line 226.
+Package pdftex.def Info: figures/numb_drugs.png used on input line 251.
 (pdftex.def)             Requested size: 256.0774pt x 192.05714pt.
 
-<figures/num_target.png, id=88, 578.16pt x 433.62pt>
+<figures/num_target.png, id=141, 578.16pt x 433.62pt>
 File: figures/num_target.png Graphic file (type png)
 
 <use figures/num_target.png>
-Package pdftex.def Info: figures/num_target.png used on input line 232.
+Package pdftex.def Info: figures/num_target.png used on input line 257.
 (pdftex.def)             Requested size: 256.0774pt x 192.05714pt.
 
-Overfull \hbox (85.36345pt too wide) in paragraph at lines 224--236
+Overfull \hbox (85.36345pt too wide) in paragraph at lines 249--261
  []$[]$$[]$ 
  []
 
-<figures/kinometree.jpg, id=89, 492.33937pt x 697.10437pt>
+[25 <./figures/dsfdagsk.pdf>]
+<figures/kinometree.jpg, id=151, 492.33937pt x 697.10437pt>
 File: figures/kinometree.jpg Graphic file (type jpg)
 
 <use figures/kinometree.jpg>
-Package pdftex.def Info: figures/kinometree.jpg used on input line 245.
-(pdftex.def)             Requested size: 384.10959pt x 543.88814pt.
- [21 <./figures/numb_drugs.png> <./figures/num_target.png>] [22] [23 <./figures
-/kinometree.jpg>]
-<figures/ssap_tyr.png, id=101, 646.66594pt x 430.60875pt>
+Package pdftex.def Info: figures/kinometree.jpg used on input line 270.
+(pdftex.def)             Requested size: 298.75262pt x 423.02055pt.
+ [26 <./figures/numb_drugs.png> <./figures/num_target.png>] [27 <./figures/kino
+metree.jpg>]
+<figures/ssap_tyr.png, id=160, 646.66594pt x 430.60875pt>
 File: figures/ssap_tyr.png Graphic file (type png)
 
 <use figures/ssap_tyr.png>
-Package pdftex.def Info: figures/ssap_tyr.png used on input line 260.
+Package pdftex.def Info: figures/ssap_tyr.png used on input line 304.
 (pdftex.def)             Requested size: 341.43436pt x 227.35422pt.
 
-<figures/ssap_ser.png, id=102, 646.66594pt x 430.60875pt>
+<figures/ssap_ser.png, id=161, 646.66594pt x 430.60875pt>
 File: figures/ssap_ser.png Graphic file (type png)
 
 <use figures/ssap_ser.png>
-Package pdftex.def Info: figures/ssap_ser.png used on input line 266.
+Package pdftex.def Info: figures/ssap_ser.png used on input line 310.
 (pdftex.def)             Requested size: 341.43436pt x 227.35422pt.
- [24] [25 <./figures/ssap_tyr.png> <./figures/ssap_ser.png>] <figures/ffdrugdis
-.png, id=112, 341.02406pt x 295.85532pt>
+ [28] [29 <./figures/ssap_tyr.png> <./figures/ssap_ser.png>] <figures/ffdrugdis
+.png, id=170, 341.02406pt x 295.85532pt>
 File: figures/ffdrugdis.png Graphic file (type png)
 
 <use figures/ffdrugdis.png>
-Package pdftex.def Info: figures/ffdrugdis.png used on input line 280.
+Package pdftex.def Info: figures/ffdrugdis.png used on input line 323.
 (pdftex.def)             Requested size: 341.43436pt x 296.22926pt.
+ [30]
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--284
+LaTeX Warning: Reference `pfam-drug' on page 31 undefined on input line 329.
 
- []
-
-[26] <figures/pfam_chembl.png, id=117, 483.70811pt x 535.22733pt>
+<figures/pfam_chembl.png, id=174, 483.70811pt x 535.22733pt>
 File: figures/pfam_chembl.png Graphic file (type png)
 
 <use figures/pfam_chembl.png>
-Package pdftex.def Info: figures/pfam_chembl.png used on input line 288.
+Package pdftex.def Info: figures/pfam_chembl.png used on input line 331.
 (pdftex.def)             Requested size: 384.10959pt x 425.03001pt.
- [27 <./figures/ffdrugdis.png (PNG copy)>]
-[28 <./figures/pfam_chembl.png (PNG copy)>] [29] [30]
-<figures/bottlenecks_ff2.png, id=132, 578.16pt x 397.485pt>
-File: figures/bottlenecks_ff2.png Graphic file (type png)
-
-<use figures/bottlenecks_ff2.png>
-Package pdftex.def Info: figures/bottlenecks_ff2.png used on input line 362.
-(pdftex.def)             Requested size: 384.10959pt x 264.07553pt.
- [31] [32 <./figures/bottlenecks_ff2.png>]
-<figures/ksim_plot.png, id=141, 341.02406pt x 295.85532pt>
-File: figures/ksim_plot.png Graphic file (type png)
-
-<use figures/ksim_plot.png>
-Package pdftex.def Info: figures/ksim_plot.png used on input line 417.
-(pdftex.def)             Requested size: 341.43436pt x 296.22926pt.
- [33]
-<figures/ksim_hum.png, id=145, 646.66594pt x 430.60875pt>
-File: figures/ksim_hum.png Graphic file (type png)
-
-<use figures/ksim_hum.png>
-Package pdftex.def Info: figures/ksim_hum.png used on input line 425.
-(pdftex.def)             Requested size: 426.79134pt x 284.19608pt.
- [34 <./figures/ksim_plot.png (PNG copy)>]
-<figures/mean_ds.png, id=149, 578.16pt x 397.485pt>
-File: figures/mean_ds.png Graphic file (type png)
- <use figures/mean_ds.png>
-Package pdftex.def Info: figures/mean_ds.png used on input line 432.
-(pdftex.def)             Requested size: 384.10959pt x 264.07553pt.
-
-[35 <./figures/ksim_hum.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 439--441
-
- []
-
-[36 <./figures/mean_ds.png>]
-<figures/superpose_4use.png, id=157, 289.08pt x 289.08pt>
-File: figures/superpose_4use.png Graphic file (type png)
-
-<use figures/superpose_4use.png>
-Package pdftex.def Info: figures/superpose_4use.png used on input line 468.
-(pdftex.def)             Requested size: 341.43436pt x 341.45108pt.
- [37]
-<figures/mutvar.png, id=162, 578.16pt x 397.485pt>
-File: figures/mutvar.png Graphic file (type png)
- <use figures/mutvar.png>
-Package pdftex.def Info: figures/mutvar.png used on input line 476.
-(pdftex.def)             Requested size: 426.79134pt x 293.41861pt.
-
-[38 <./figures/superpose_4use.png>]
-<figures/muttarg.png, id=167, 578.16pt x 397.485pt>
-File: figures/muttarg.png Graphic file (type png)
- <use figures/muttarg.png>
-Package pdftex.def Info: figures/muttarg.png used on input line 484.
-(pdftex.def)             Requested size: 426.79134pt x 293.41861pt.
-
-[39 <./figures/mutvar.png>]
-Overfull \hbox (30.10783pt too wide) in paragraph at lines 496--539
+ [31 <./figures/ffdrugdis.png (PNG copy)>]
+[32 <./figures/pfam_chembl.png (PNG copy)>] [33]
+Overfull \hbox (2.12183pt too wide) in paragraph at lines 399--406
  [][] 
  []
 
-[40 <./figures/muttarg.png>] [41] (./kin_notes.bbl [42] [43] [44]) [45]
-(./kin_notes.aux)
+<figures/simplotk.pdf, id=187, 578.16pt x 433.62pt>
+File: figures/simplotk.pdf Graphic file (type pdf)
+ <use figures/simplotk.pdf>
+Package pdftex.def Info: figures/simplotk.pdf used on input line 414.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+
+[34] [35 <./figures/simplotk.pdf>]
+<figures/ds_plot0610.pdf, id=200, 578.16pt x 433.62pt>
+File: figures/ds_plot0610.pdf Graphic file (type pdf)
+
+<use figures/ds_plot0610.pdf>
+Package pdftex.def Info: figures/ds_plot0610.pdf used on input line 422.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [36 <./figures/ds_plot0610.pdf>]
+<figures/ksim_plot.png, id=209, 341.02406pt x 295.85532pt>
+File: figures/ksim_plot.png Graphic file (type png)
+
+<use figures/ksim_plot.png>
+Package pdftex.def Info: figures/ksim_plot.png used on input line 433.
+(pdftex.def)             Requested size: 341.43436pt x 296.22926pt.
+ [37 <./figures/ksim_plot.png (PNG copy)>]
+<figures/pfam_sim0910.pdf, id=214, 578.16pt x 433.62pt>
+File: figures/pfam_sim0910.pdf Graphic file (type pdf)
+
+<use figures/pfam_sim0910.pdf>
+Package pdftex.def Info: figures/pfam_sim0910.pdf used on input line 444.
+(pdftex.def)             Requested size: 307.28883pt x 230.46591pt.
+
+<figures/pfamds_plot.pdf, id=215, 578.16pt x 433.62pt>
+File: figures/pfamds_plot.pdf Graphic file (type pdf)
+
+<use figures/pfamds_plot.pdf>
+Package pdftex.def Info: figures/pfamds_plot.pdf used on input line 449.
+(pdftex.def)             Requested size: 307.28883pt x 230.46591pt.
+ [38] [39 <./figures/pfam_sim0910.pdf> <./figures/pfamds_plot.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+
+ []
+
+[40] <figures/superpose_4use.png, id=236, 289.08pt x 289.08pt>
+File: figures/superpose_4use.png Graphic file (type png)
+
+<use figures/superpose_4use.png>
+Package pdftex.def Info: figures/superpose_4use.png used on input line 489.
+(pdftex.def)             Requested size: 341.43436pt x 341.45108pt.
+ [41]
+<figures/mutvar.png, id=240, 578.16pt x 397.485pt>
+File: figures/mutvar.png Graphic file (type png)
+ <use figures/mutvar.png>
+Package pdftex.def Info: figures/mutvar.png used on input line 497.
+(pdftex.def)             Requested size: 426.79134pt x 293.41861pt.
+
+Overfull \hbox (42.94673pt too wide) in paragraph at lines 495--501
+\OT1/ppl/m/n/10.95 (-20) non-disease as-so-ci-ated neu-tral vari-a-tions(mutati
+on data taken from Hum-Var [[]]).
+ []
+
+[42 <./figures/superpose_4use.png>]
+<figures/muttarg.png, id=245, 578.16pt x 397.485pt>
+File: figures/muttarg.png Graphic file (type png)
+ <use figures/muttarg.png>
+Package pdftex.def Info: figures/muttarg.png used on input line 504.
+(pdftex.def)             Requested size: 426.79134pt x 293.41861pt.
+
+[43 <./figures/mutvar.png>]
+Overfull \hbox (29.73892pt too wide) in paragraph at lines 516--559
+ [][] 
+ []
+
+[44 <./figures/muttarg.png>] [45] (./kin_notes.bbl [46] [47]
+Underfull \hbox (badness 4217) in paragraph at lines 171--174
+[]\OT1/ppl/m/n/10.95 (+20) Martin, A. (2009).  Profit pro-gram us-ing mclach-la
+n al-go-rithm.
+ []
+
+[48] [49]) [50] (./kin_notes.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6676 strings out of 494945
- 100552 string characters out of 6181032
- 209528 words of memory out of 5000000
- 9652 multiletter control sequences out of 15000+600000
- 35221 words of font info for 174 fonts, out of 8000000 for 9000
+ 6723 strings out of 494945
+ 101429 string characters out of 6181032
+ 209948 words of memory out of 5000000
+ 9689 multiletter control sequences out of 15000+600000
+ 35110 words of font info for 177 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,12n,43p,1777b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,12n,43p,3275b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
-atino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on kin_notes.pdf (45 pages, 3533858 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/
+uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on kin_notes.pdf (50 pages, 3566091 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
+ 304 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 26258 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 25766 words of extra memory for PDF output out of 29859 (max. 10000000)
 
