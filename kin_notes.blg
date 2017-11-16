@@ -2,50 +2,50 @@ This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: kin_notes.aux
 The style file: apalike.bst
-Illegal, another \bibstyle command---line 246 of file kin_notes.aux
+Illegal, another \bibstyle command---line 252 of file kin_notes.aux
  : \bibstyle
  :          {apa}
 I'm skipping whatever remains of this command
 Database file #1: kin_references.bib.bib
-You've used 48 entries,
+You've used 49 entries,
             1935 wiz_defined-function locations,
-            769 strings with 14704 characters,
-and the built_in function-call counts, 22848 in all, are:
-= -- 2166
-> -- 1292
+            773 strings with 14945 characters,
+and the built_in function-call counts, 23357 in all, are:
+= -- 2215
+> -- 1320
 < -- 17
-+ -- 483
-- -- 460
-* -- 2197
-:= -- 4015
-add.period$ -- 145
-call.type$ -- 48
-change.case$ -- 462
-chr.to.int$ -- 47
-cite$ -- 48
-duplicate$ -- 685
-empty$ -- 1395
-format.name$ -- 532
-if$ -- 4311
++ -- 493
+- -- 470
+* -- 2248
+:= -- 4103
+add.period$ -- 148
+call.type$ -- 49
+change.case$ -- 472
+chr.to.int$ -- 48
+cite$ -- 49
+duplicate$ -- 699
+empty$ -- 1427
+format.name$ -- 543
+if$ -- 4407
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 47
-newline$ -- 242
-num.names$ -- 144
-pop$ -- 371
+missing$ -- 48
+newline$ -- 247
+num.names$ -- 147
+pop$ -- 379
 preamble$ -- 1
-purify$ -- 463
+purify$ -- 473
 quote$ -- 0
-skip$ -- 513
+skip$ -- 523
 stack$ -- 0
-substring$ -- 1614
-swap$ -- 61
+substring$ -- 1657
+swap$ -- 62
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 286
+type$ -- 292
 warning$ -- 0
-while$ -- 175
+while$ -- 179
 width$ -- 0
-write$ -- 623
+write$ -- 636
 (There was 1 error message)

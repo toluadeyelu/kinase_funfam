@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.21)  10 NOV 2017 11:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.21)  14 NOV 2017 12:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -945,182 +945,181 @@ File: figures/framework.png Graphic file (type png)
 Package pdftex.def Info: figures/framework.png used on input line 212.
 (pdftex.def)             Requested size: 341.43436pt x 319.03687pt.
 
-Overfull \hbox (9.11752pt too wide) in paragraph at lines 220--220
-\OT1/ppl/m/n/10.95 (-20) made avail-able by GSK to the ex-ter-nal com-mu-nity [
-[], []].
+Overfull \hbox (10.11867pt too wide) in paragraph at lines 220--220
+\OT1/ppl/m/n/10.95 (-20) made avail-able by GSK to the re-search com-mu-nity [[
+], []].
  []
 
 [22 <./figures/framework.png>]
-<figures/activityplot.pdf, id=95, 578.16pt x 433.62pt>
-File: figures/activityplot.pdf Graphic file (type pdf)
+<figures/dsscoreFDGS.pdf, id=95, 578.16pt x 433.62pt>
+File: figures/dsscoreFDGS.pdf Graphic file (type pdf)
 
-<use figures/activityplot.pdf>
-Package pdftex.def Info: figures/activityplot.pdf used on input line 226.
-(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
- [23]
-<figures/dsfdagsk.pdf, id=100, 578.16pt x 433.62pt>
-File: figures/dsfdagsk.pdf Graphic file (type pdf)
- <use figures/dsfdagsk.pdf>
-Package pdftex.def Info: figures/dsfdagsk.pdf used on input line 236.
-(pdftex.def)             Requested size: 384.10959pt x 288.0824pt.
+<use figures/dsscoreFDGS.pdf>
+Package pdftex.def Info: figures/dsscoreFDGS.pdf used on input line 228.
+(pdftex.def)             Requested size: 341.43436pt x 256.07178pt.
 
-[24 <./figures/activityplot.pdf>]
-<figures/numb_drugs.png, id=140, 578.16pt x 433.62pt>
+<figures/ksimscoreFDGS.pdf, id=96, 578.16pt x 433.62pt>
+File: figures/ksimscoreFDGS.pdf Graphic file (type pdf)
+
+<use figures/ksimscoreFDGS.pdf>
+Package pdftex.def Info: figures/ksimscoreFDGS.pdf used on input line 234.
+(pdftex.def)             Requested size: 341.43436pt x 256.07178pt.
+ [23] [24] [25 <./figures/dsscoreFDGS.pdf> <./figures/ksimscoreFDGS.pdf>]
+<figures/numb_drugs.png, id=118, 578.16pt x 433.62pt>
 File: figures/numb_drugs.png Graphic file (type png)
 
 <use figures/numb_drugs.png>
-Package pdftex.def Info: figures/numb_drugs.png used on input line 251.
+Package pdftex.def Info: figures/numb_drugs.png used on input line 252.
 (pdftex.def)             Requested size: 256.0774pt x 192.05714pt.
 
-<figures/num_target.png, id=141, 578.16pt x 433.62pt>
+<figures/num_target.png, id=119, 578.16pt x 433.62pt>
 File: figures/num_target.png Graphic file (type png)
 
 <use figures/num_target.png>
-Package pdftex.def Info: figures/num_target.png used on input line 257.
+Package pdftex.def Info: figures/num_target.png used on input line 258.
 (pdftex.def)             Requested size: 256.0774pt x 192.05714pt.
 
-Overfull \hbox (85.36345pt too wide) in paragraph at lines 249--261
+Overfull \hbox (85.36345pt too wide) in paragraph at lines 250--262
  []$[]$$[]$ 
  []
 
-[25 <./figures/dsfdagsk.pdf>]
-<figures/kinometree.jpg, id=151, 492.33937pt x 697.10437pt>
-File: figures/kinometree.jpg Graphic file (type jpg)
+[26 <./figures/numb_drugs.png> <./figures/num_target.png>]
+<figures/essential_kinase.png, id=125, 1003.49907pt x 669.2503pt>
+File: figures/essential_kinase.png Graphic file (type png)
 
-<use figures/kinometree.jpg>
-Package pdftex.def Info: figures/kinometree.jpg used on input line 270.
-(pdftex.def)             Requested size: 298.75262pt x 423.02055pt.
- [26 <./figures/numb_drugs.png> <./figures/num_target.png>] [27 <./figures/kino
-metree.jpg>]
-Overfull \hbox (27.21422pt too wide) in paragraph at lines 283--295
+<use figures/essential_kinase.png>
+Package pdftex.def Info: figures/essential_kinase.png used on input line 269.
+(pdftex.def)             Requested size: 298.75262pt x 199.24484pt.
+ [27 <./figures/essential_kinase.png>]
+[28]
+Overfull \hbox (2.12183pt too wide) in paragraph at lines 292--299
  [][] 
  []
 
-<figures/ssap_tyr.png, id=160, 646.66594pt x 430.60875pt>
-File: figures/ssap_tyr.png Graphic file (type png)
-
-<use figures/ssap_tyr.png>
-Package pdftex.def Info: figures/ssap_tyr.png used on input line 304.
-(pdftex.def)             Requested size: 341.43436pt x 227.35422pt.
-
-<figures/ssap_ser.png, id=161, 646.66594pt x 430.60875pt>
-File: figures/ssap_ser.png Graphic file (type png)
-
-<use figures/ssap_ser.png>
-Package pdftex.def Info: figures/ssap_ser.png used on input line 310.
-(pdftex.def)             Requested size: 341.43436pt x 227.35422pt.
- [28] [29 <./figures/ssap_tyr.png> <./figures/ssap_ser.png>] <figures/ffdrugdis
-.png, id=170, 341.02406pt x 295.85532pt>
-File: figures/ffdrugdis.png Graphic file (type png)
-
-<use figures/ffdrugdis.png>
-Package pdftex.def Info: figures/ffdrugdis.png used on input line 323.
-(pdftex.def)             Requested size: 341.43436pt x 296.22926pt.
- [30]
-
-LaTeX Warning: Reference `pfam-drug' on page 31 undefined on input line 329.
-
-<figures/pfam_chembl.png, id=174, 483.70811pt x 535.22733pt>
-File: figures/pfam_chembl.png Graphic file (type png)
-
-<use figures/pfam_chembl.png>
-Package pdftex.def Info: figures/pfam_chembl.png used on input line 331.
-(pdftex.def)             Requested size: 384.10959pt x 425.03001pt.
- [31 <./figures/ffdrugdis.png (PNG copy)>]
-[32 <./figures/pfam_chembl.png (PNG copy)>] [33]
-Overfull \hbox (2.12183pt too wide) in paragraph at lines 399--406
- [][] 
- []
-
-<figures/simplotk.pdf, id=187, 578.16pt x 433.62pt>
+<figures/simplotk.pdf, id=135, 578.16pt x 433.62pt>
 File: figures/simplotk.pdf Graphic file (type pdf)
  <use figures/simplotk.pdf>
-Package pdftex.def Info: figures/simplotk.pdf used on input line 414.
+Package pdftex.def Info: figures/simplotk.pdf used on input line 307.
 (pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
 
-[34] [35 <./figures/simplotk.pdf>]
-<figures/dsboxplot.pdf, id=200, 578.16pt x 433.62pt>
+[29] <figures/dsboxplot.pdf, id=139, 578.16pt x 433.62pt>
 File: figures/dsboxplot.pdf Graphic file (type pdf)
 
 <use figures/dsboxplot.pdf>
-Package pdftex.def Info: figures/dsboxplot.pdf used on input line 422.
+Package pdftex.def Info: figures/dsboxplot.pdf used on input line 315.
 (pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
- [36 <./figures/dsboxplot.pdf>]
-<figures/pfam_simdist.pdf, id=209, 578.16pt x 433.62pt>
+ [30 <./figures/simplotk.pdf>] [31 <./figures/dsboxplot.pdf>] <figures/kinometr
+ee.jpg, id=158, 492.33937pt x 697.10437pt>
+File: figures/kinometree.jpg Graphic file (type jpg)
+
+<use figures/kinometree.jpg>
+Package pdftex.def Info: figures/kinometree.jpg used on input line 326.
+(pdftex.def)             Requested size: 341.43436pt x 483.45967pt.
+ [32] [33 <./figures/kinometree.jpg>]
+Overfull \hbox (27.21422pt too wide) in paragraph at lines 339--351
+ [][] 
+ []
+
+<figures/ssap_tyr.png, id=165, 646.66594pt x 430.60875pt>
+File: figures/ssap_tyr.png Graphic file (type png)
+
+<use figures/ssap_tyr.png>
+Package pdftex.def Info: figures/ssap_tyr.png used on input line 360.
+(pdftex.def)             Requested size: 341.43436pt x 227.35422pt.
+
+<figures/ssap_ser.png, id=166, 646.66594pt x 430.60875pt>
+File: figures/ssap_ser.png Graphic file (type png)
+
+<use figures/ssap_ser.png>
+Package pdftex.def Info: figures/ssap_ser.png used on input line 366.
+(pdftex.def)             Requested size: 341.43436pt x 227.35422pt.
+ [34] [35 <./figures/ssap_tyr.png> <./figures/ssap_ser.png>] <figures/ffdrugdis
+.png, id=175, 341.02406pt x 295.85532pt>
+File: figures/ffdrugdis.png Graphic file (type png)
+
+<use figures/ffdrugdis.png>
+Package pdftex.def Info: figures/ffdrugdis.png used on input line 379.
+(pdftex.def)             Requested size: 341.43436pt x 296.22926pt.
+ [36]
+<figures/pfam_chembl.png, id=179, 483.70811pt x 535.22733pt>
+File: figures/pfam_chembl.png Graphic file (type png)
+
+<use figures/pfam_chembl.png>
+Package pdftex.def Info: figures/pfam_chembl.png used on input line 388.
+(pdftex.def)             Requested size: 384.10959pt x 425.03001pt.
+ [37 <./figures/ffdrugdis.png (PNG copy)>]
+<figures/pfam_simdist.pdf, id=184, 578.16pt x 433.62pt>
 File: figures/pfam_simdist.pdf Graphic file (type pdf)
 
 <use figures/pfam_simdist.pdf>
-Package pdftex.def Info: figures/pfam_simdist.pdf used on input line 433.
+Package pdftex.def Info: figures/pfam_simdist.pdf used on input line 444.
 (pdftex.def)             Requested size: 341.43436pt x 256.07178pt.
-
-<figures/pfam_sim0910.pdf, id=210, 578.16pt x 433.62pt>
+ [38 <./figures/pfam_chembl.png (PNG copy)>]
+<figures/pfam_sim0910.pdf, id=188, 578.16pt x 433.62pt>
 File: figures/pfam_sim0910.pdf Graphic file (type pdf)
 
 <use figures/pfam_sim0910.pdf>
-Package pdftex.def Info: figures/pfam_sim0910.pdf used on input line 444.
+Package pdftex.def Info: figures/pfam_sim0910.pdf used on input line 455.
 (pdftex.def)             Requested size: 307.28883pt x 230.46591pt.
 
-<figures/pfamds_plot.pdf, id=211, 578.16pt x 433.62pt>
+<figures/pfamds_plot.pdf, id=189, 578.16pt x 433.62pt>
 File: figures/pfamds_plot.pdf Graphic file (type pdf)
 
 <use figures/pfamds_plot.pdf>
-Package pdftex.def Info: figures/pfamds_plot.pdf used on input line 449.
+Package pdftex.def Info: figures/pfamds_plot.pdf used on input line 460.
 (pdftex.def)             Requested size: 307.28883pt x 230.46591pt.
- [37 <./figures/pfam_simdist.pdf>] [38 <./figures/pfam_sim0910.pdf> <./figures/
+ [39 <./figures/pfam_simdist.pdf>] [40 <./figures/pfam_sim0910.pdf> <./figures/
 pfamds_plot.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
-[39] <figures/superpose_4use.png, id=238, 289.08pt x 289.08pt>
+[41] <figures/superpose_4use.png, id=215, 289.08pt x 289.08pt>
 File: figures/superpose_4use.png Graphic file (type png)
 
 <use figures/superpose_4use.png>
-Package pdftex.def Info: figures/superpose_4use.png used on input line 489.
+Package pdftex.def Info: figures/superpose_4use.png used on input line 500.
 (pdftex.def)             Requested size: 341.43436pt x 341.45108pt.
- [40]
-<figures/mutvar.png, id=242, 578.16pt x 397.485pt>
+ [42]
+<figures/mutvar.png, id=219, 578.16pt x 397.485pt>
 File: figures/mutvar.png Graphic file (type png)
  <use figures/mutvar.png>
-Package pdftex.def Info: figures/mutvar.png used on input line 497.
+Package pdftex.def Info: figures/mutvar.png used on input line 508.
 (pdftex.def)             Requested size: 426.79134pt x 293.41861pt.
 
-Overfull \hbox (42.94673pt too wide) in paragraph at lines 495--501
+Overfull \hbox (42.94673pt too wide) in paragraph at lines 506--512
 \OT1/ppl/m/n/10.95 (-20) non-disease as-so-ci-ated neu-tral vari-a-tions(mutati
 on data taken from Hum-Var [[]]).
  []
 
-[41 <./figures/superpose_4use.png>]
-<figures/muttarg.png, id=247, 578.16pt x 397.485pt>
+[43 <./figures/superpose_4use.png>]
+<figures/muttarg.png, id=225, 578.16pt x 397.485pt>
 File: figures/muttarg.png Graphic file (type png)
  <use figures/muttarg.png>
-Package pdftex.def Info: figures/muttarg.png used on input line 504.
+Package pdftex.def Info: figures/muttarg.png used on input line 515.
 (pdftex.def)             Requested size: 426.79134pt x 293.41861pt.
 
-[42 <./figures/mutvar.png>]
-Overfull \hbox (29.73892pt too wide) in paragraph at lines 516--559
+[44 <./figures/mutvar.png>]
+Overfull \hbox (29.73892pt too wide) in paragraph at lines 527--570
  [][] 
  []
 
-[43 <./figures/muttarg.png>] [44] (./kin_notes.bbl [45] [46]
-Underfull \hbox (badness 4217) in paragraph at lines 171--174
+[45 <./figures/muttarg.png>] [46] (./kin_notes.bbl [47] [48]
+Underfull \hbox (badness 4217) in paragraph at lines 177--180
 []\OT1/ppl/m/n/10.95 (+20) Martin, A. (2009).  Profit pro-gram us-ing mclach-la
 n al-go-rithm.
  []
 
-[47] [48]) [49] (./kin_notes.aux)
-
-LaTeX Warning: There were undefined references.
-
+[49] [50]) [51] (./kin_notes.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6723 strings out of 494945
- 101434 string characters out of 6181032
- 209948 words of memory out of 5000000
- 9689 multiletter control sequences out of 15000+600000
+ 6732 strings out of 494945
+ 101657 string characters out of 6181032
+ 210009 words of memory out of 5000000
+ 9697 multiletter control sequences out of 15000+600000
  35110 words of font info for 177 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  39i,12n,43p,3275b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1132,10 +1131,10 @@ type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/
 uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on kin_notes.pdf (49 pages, 3555768 bytes).
+Output written on kin_notes.pdf (51 pages, 3661487 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
+ 283 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 25766 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 25771 words of extra memory for PDF output out of 29859 (max. 10000000)
 

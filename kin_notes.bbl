@@ -39,6 +39,12 @@ Capriotti, E., Calabrese, R., and Casadio, R. (2006).
   information.
 \newblock {\em Bioinformatics}, 22(22):2729--2734.
 
+\bibitem[Chen et~al., 2017]{chen2017ogee}
+Chen, W.-H., Lu, G., Chen, X., Zhao, X.-M., and Bork, P. (2017).
+\newblock Ogee v2: an update of the online gene essentiality database with
+  special focus on differentially essential genes in human cancer cell lines.
+\newblock {\em Nucleic acids research}, 45(D1):D940--D944.
+
 \bibitem[Chiu et~al., 2012]{chiu2012kidfammap}
 Chiu, Y.-Y., Lin, C.-T., Huang, J.-W., Hsu, K.-C., Tseng, J.-H., You, S.-R.,
   and Yang, J.-M. (2012).
