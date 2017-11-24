@@ -2,43 +2,43 @@ This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: kin_notes.aux
 The style file: apalike.bst
-Illegal, another \bibstyle command---line 252 of file kin_notes.aux
+Illegal, another \bibstyle command---line 296 of file kin_notes.aux
  : \bibstyle
  :          {apa}
 I'm skipping whatever remains of this command
 Database file #1: kin_references.bib.bib
 You've used 49 entries,
             1935 wiz_defined-function locations,
-            773 strings with 14945 characters,
-and the built_in function-call counts, 23357 in all, are:
-= -- 2215
-> -- 1320
+            773 strings with 15137 characters,
+and the built_in function-call counts, 23561 in all, are:
+= -- 2229
+> -- 1350
 < -- 17
-+ -- 493
-- -- 470
-* -- 2248
-:= -- 4103
++ -- 505
+- -- 482
+* -- 2274
+:= -- 4141
 add.period$ -- 148
 call.type$ -- 49
-change.case$ -- 472
+change.case$ -- 478
 chr.to.int$ -- 48
 cite$ -- 49
 duplicate$ -- 699
-empty$ -- 1427
-format.name$ -- 543
-if$ -- 4407
+empty$ -- 1429
+format.name$ -- 555
+if$ -- 4441
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 48
 newline$ -- 247
 num.names$ -- 147
-pop$ -- 379
+pop$ -- 385
 preamble$ -- 1
-purify$ -- 473
+purify$ -- 479
 quote$ -- 0
 skip$ -- 523
 stack$ -- 0
-substring$ -- 1657
+substring$ -- 1663
 swap$ -- 62
 text.length$ -- 3
 text.prefix$ -- 0

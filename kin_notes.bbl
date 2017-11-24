@@ -253,6 +253,13 @@ Santos, R., Ursu, O., Gaulton, A., Bento, A.~P., Donadi, R.~S., Bologa, C.~G.,
 \newblock A comprehensive map of molecular drug targets.
 \newblock {\em Nature reviews Drug discovery}, 16(1):19--34.
 
+\bibitem[Shoemaker et~al., 2011]{shoemaker2011ibis}
+Shoemaker, B.~A., Zhang, D., Tyagi, M., Thangudu, R.~R., Fong, J.~H.,
+  Marchler-Bauer, A., Bryant, S.~H., Madej, T., and Panchenko, A.~R. (2011).
+\newblock Ibis (inferred biomolecular interaction server) reports, predicts and
+  integrates multiple types of conserved interactions for proteins.
+\newblock {\em Nucleic acids research}, 40(D1):D834--D840.
+
 \bibitem[Szklarczyk et~al., 2014]{szklarczyk2014string}
 Szklarczyk, D., Franceschini, A., Wyder, S., Forslund, K., Heller, D.,
   Huerta-Cepas, J., Simonovic, M., Roth, A., Santos, A., Tsafou, K.~P., et~al.
@@ -293,10 +300,5 @@ Yu, H., Kim, P.~M., Sprecher, E., Trifonov, V., and Gerstein, M. (2007).
 \newblock The importance of bottlenecks in protein networks: correlation with
   gene essentiality and expression dynamics.
 \newblock {\em PLoS computational biology}, 3(4):e59.
-
-\bibitem[Zhang et~al., 2008]{zhang2008turning}
-Zhang, X., Crespo, A., and Fern{\'a}ndez, A. (2008).
-\newblock Turning promiscuous kinase inhibitors into safer drugs.
-\newblock {\em Trends in biotechnology}, 26(6):295--301.
 
 \end{thebibliography}
